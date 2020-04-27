@@ -17,7 +17,7 @@
 \newcommand{\langscidata}[1]{\pgfplotstableread{#1}\mydata;}
 
 \let\Emph\textbf
-
+\def\EmphName{printed in bold\xspace}
 
 \xspaceaddexceptions{=}
 \xspaceaddexceptions{]}
@@ -30,6 +30,9 @@
 \newcommand{\LOCOne}{\textsc{loc\oldstylenums{1}}\xspace}
 \newcommand{\LOCTwo}{\textsc{loc\oldstylenums{2}}\xspace}
 \newcommand{\LOCThree}{\textsc{loc\oldstylenums{3}}\xspace}
+
+\newcommand{\CFMOne}{\textsc{cfm\oldstylenums{1}}\xspace}
+\examplesroman
 
 \NewDocumentCommand{\smallex}{}{%
 \small
