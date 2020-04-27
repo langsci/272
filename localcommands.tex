@@ -15,3 +15,26 @@
 \newcommand{\langscibar}[1]{\addplot+ table [x=i, y=#1] {\mydata};\addlegendentry{#1};}
 
 \newcommand{\langscidata}[1]{\pgfplotstableread{#1}\mydata;}
+
+\let\Emph\textbf
+
+
+\xspaceaddexceptions{=}
+\xspaceaddexceptions{]}
+%Glosses not defined in langsci-lgr.sty
+\newcommand{\ADNZ}{\textsc{adnz}\xspace}
+\newcommand{\ASS}{\textsc{ass}\xspace}
+\newcommand{\HON}{\textsc{hon}\xspace}
+\newcommand{\QT}{\textsc{qt}\xspace}
+\newcommand{\UMRK}{\textsc{umrk}\xspace}
+\newcommand{\LOCOne}{\textsc{loc\oldstylenums{1}}\xspace}
+\newcommand{\LOCTwo}{\textsc{loc\oldstylenums{2}}\xspace}
+\newcommand{\LOCThree}{\textsc{loc\oldstylenums{3}}\xspace}
+
+\NewDocumentCommand{\smallex}{}{%
+\small
+\let\eachwordone\small
+\let\eachwordtwo\small
+\let\eachwordthree\small
+\let\eachwordfour\small
+}
