@@ -1,19 +1,8 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%     Language Science Press Master File       %%%
-%%%         follow the instructions below        %%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% Everything following a % is ignored
-% Some lines start with %. Remove the % to include them
-
 \documentclass[output=book,nonflat,
   colorlinks,citecolor=brown,
 %  draft,draftmode,
 %  showindex,
-%  nobabel,
-%  booklanguage=german,
-%  multiauthors,
-		  ]{langscibook/langscibook}
+		  ]{langscibook}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%          additional packages                 %%%
@@ -49,31 +38,27 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%             Chapters                         %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
-% \include{chapters/01-introduction}  %add a percentage sign in front of the line to exclude this chapter from book
-% \include{chapters/02-phonology}
-% \include{chapters/03-gramrelations}
-%\include{chapters/04-preliminaries}
-
+%
+\include{chapters/01-introduction}  %add a percentage sign in front of the line to exclude this chapter from book
+\include{chapters/02-phonology}
+\include{chapters/03-gramrelations}
+\include{chapters/04-preliminaries}
 \include{chapters/05-crossover}
-
-%\include{chapters/09-predicative}
-%\include{chapters/10-particles}
-%\include{chapters/11-interclausal}
+\include{chapters/06-nomphrases}
+\include{chapters/07-nominals}
+\include{chapters/08-verbalmorphology}
+\include{chapters/09-predicative}
+\include{chapters/10-particles}
+\include{chapters/11-interclausal}
 
 \appendix
 %\include{chapters/appendix}
 
 % % copy the lines above and adapt as necessary
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%             Backmatter                       %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \input{localseealso.tex}
-% There is normally no need to change the backmatter section
 \input{backmatter.tex}
 \end{document}
-
-% you can create your book by running
-% xelatex main.tex
