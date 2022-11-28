@@ -8,7 +8,7 @@ Clause structure is discussed in \sectref{sec:4.1.1}, and phrase structures are 
 
 \subsection{Clause structure}\label{sec:4.1.1}
 
-The canonical word order is \textsc{sv} and \textsc{apv}. Yuwan has a nominative-accusative case marking system. Canonically, S/A arguments are marked by \textit{ga/nu} (\textsc{nom}), and P argument is marked by \textit{ba} (\textsc{acc}). Argument NPs that are inferable from the context can be left unstated.
+The canonical word order is SV and APV, where S is an argument of intransitive verb, A is an agent-like argument of transitive verb and P is a patient like argument of transitive verb. Yuwan has a nominative-accusative case marking system. Canonically, S/A arguments are marked by \textit{ga/nu} (\textsc{nom}), and P argument is marked by \textit{ba} (\textsc{acc}). Argument NPs that are inferable from the context can be left unstated.
 
 \ea\label{ex:4.1}
 \ea  Intransitive clause\\\label{ex:4.1a}\relax
@@ -20,7 +20,7 @@ The canonical word order is \textsc{sv} and \textsc{apv}. Yuwan has a nominative
       \glt       ‘There was Ms. Hatsuko, and ...’ [Co: 120415\_01.txt]
 
 \ex Transitive clause\\\label{ex:4.1b}
-\glll    \textsc{tm}:  hirooga  kangɨɨba  kicjɨ,\\
+\glll    \textsc  hirooga  kangɨɨba  kicjɨ,\\
       [\textit{hiroo=ga}]\textsubscript{Argument}  [\textit{kangɨɨ=ba}]\textsubscript{Argument}  [\textit{kij-tɨ}]\textsubscript{Predicate}\\
       Hiro=\textsc{nom}  hedge=\textsc{acc}  cut-\textsc{seq}\\
       \glt       ‘Hiro cut the hedge, and ...’ [Co: 101020\_01.txt]
@@ -39,7 +39,7 @@ Yuwan has the following nominal phrase (NP) structure.
 [(Modifier) Head]\textsubscript{NP}\textit{\textsubscript{} }(=Case)
 \z
 
-The head slot is obligatory, while the modifier slot is optional in principle (with the exception of the formal noun which will be discussed in \sectref{sec:6.2.2}). The head slot is filled by a nominal. A case particle follows the NP. However, there are many situations where case particles do not appear. The nominative case particle does not occur if the NP is followed by \textit{ja} (\textsc{top}), \textit{du} (\textsc{foc}), or \textit{n} ‘also’ (see also \sectref{sec:10.1}). Likewise, the genitive case particle does not occur if the head is filled by an address noun (see \sectref{sec:7.2}), and the accusative case may be omitted after an inanimate nominal (see \sectref{sec:6.3.2.2}). Thus, we propose the core of an NP is the head nominal and not the case particle. An NP that contains a case particle is called an “extended NP” \citep[167]{Shimoji2008}. In this grammar, the label “NP” refers to either the NP (in a narrow sense) or the extended NP.
+The head slot is obligatory, while the modifier slot is optional in principle (with the exception of the formal noun which will be discussed in \sectref{sec:6.2.2}). The head slot is filled by a nominal. A case particle follows the NP. However, there are many situations where case particles do not appear. The nominative case particle does not occur if the NP is followed by \textit{ja} (\textsc{top}), \textit{du} (\textsc{foc}), or \textit{n} ‘also’ (see \sectref{sec:10.1}). Likewise, the genitive case particle does not occur if the head is filled by an address noun (see \sectref{sec:7.2}), and the accusative case may be omitted after an inanimate nominal (see \sectref{sec:6.3.2.2}). Thus, we propose the core of an NP is the head nominal and not the case particle. An NP that contains a case particle is called an “extended NP” \citep[167]{Shimoji2008}. In this grammar, the label “NP” refers to either the NP (in a narrow sense) or the extended NP.
 
 Syntactically, an NP can function either as a clausal dependent (argument), a clausal head (nominal predicate), or a phrasal modifier (NP in genitive function).
 
@@ -48,8 +48,8 @@ Syntactically, an NP can function either as a clausal dependent (argument), a cl
 % \textsc{tm}:
 \glll      jinganu  {\textbar}hasigo{\textbar}  kɨɨtɨ,  nasiba   tˀɨɨ  tˀɨɨ  mutunwakejo.\\
       [\textit{jinga=nu}]\textsubscript{Argument NP}  [\textit{hasigo}]\textsubscript{Argument NP}  \textit{kɨɨr-tɨ}  [\textit{nasi=ba}]\textsubscript{Argument NP}         \textit{tˀɨɨ}  \textit{tˀɨɨ}  \textit{mur-tur-n=wake=joo}\\
-      man=\textsc{nom}  ladder  put-\textsc{seq}  pear=\textsc{acc}      one.\textsc{clf}  one.CLF  pick.up-\textsc{prog}-\textsc{ptcp}=\textsc{cfp}=\textsc{cfm}1     \\
-      \glt       ‘A man put a ladder (against a tree) and was picking up pears one by one.’ [\textsc{pf}: 090222\_00.txt]
+      man=\textsc{nom}  ladder  put-\textsc{seq}  pear=\textsc{acc}      one.\textsc{clf}  one.CLF  pick-\textsc{prog}-\textsc{ptcp}=\textsc{cfp}=\textsc{cfm}1     \\
+      \glt       ‘A man put a ladder (against a tree) and was picking pears one by one.’ [\textsc{pf}: 090222\_00.txt]
 
 \ex\label{ex:4.2b}Nominal predicate\\
 %  \textsc{tm}:
@@ -146,71 +146,63 @@ The VP may be composed of a lexical verb and an auxiliary verb as in \REF{ex:4.7
     \glt     ‘Will you come (to my son’s place)?’    [Co: 120415\_00.txt]
 \z
 
-The light verbs \textit{sɨr-} ‘do’ and \textit{nar-} ‘become’ obligatorily take complements. This structure is called the light verb construction (see \sectref{sec:9.1.2}).
+The light verb \textit{sɨr-} ‘do’ obligatorily takes complements. This structure is called the light verb construction (see \sectref{sec:9.1.2}).
 
-\ea  Light verb construction \label{ex:4.8}
- \ea  \textit{sɨr-} ‘do’\\
+\ea  Light verb construction \label{ex:4.8}\\
 %   \textsc{tm}:
     \glll jˀiija  sɨranban,\\
     \textit{jˀ-i=ja}  \textit{\Highlight{sɨr}-an=ban}\\
     say-\textsc{inf}=\textsc{top}  do-\textsc{neg}=\textsc{advrs}\\
     Complement  \textsc{lv}\\
     \glt ‘(They) wouldn’t say (so), but ...’    [Co: 111113\_02.txt]
-
-\ex\textit{nar-} ‘become’\\
-%   \textsc{tm}:
-\glll joo,  huccju  nappoojoo,  adoorɨtɨjo,\\
-    \textit{joo}  \textit{huccju}  \textit{\Highlight{nar}-boo=joo  adoorɨr-tɨ=joo}\\
-    \textsc{fil}  old.person  become-\textsc{cnd}=\textsc{cfm}1  trip.over-\textsc{seq}=CFM1\\
-      Complement  \textsc{lv}  \\
-    \glt ‘Well, if (people) become old, (they) trip over their own feet, and ...’     [Co: 120415\_01.txt]
-    \z
 \z
 
 \subsubsection{Adjectival predicate}\label{sec:4.1.3.2}
 
-An adjectival predicate phrase is composed of an adjective and optionally a stative verb as schematized in \REF{ex:4.9} (see \sectref{sec:9.2} for more details).
+An adjectival predicate phrase is composed of an adjective and optionally a stative verb as schematized in \REF{ex:4.9}, where “A” stands for adjectives and “STV” stands for stative verbs (see \sectref{sec:9.2} for more details).
 
 \ea  Structure of the adjectival predicate phrase \label{ex:4.9}\\\relax
-  [A \hspace{2\tabcolsep} (\textsc{st}V)]\textsubscript{Adjectival predicate phrase}
+  [A \hspace{2\tabcolsep} (STV)]\textsubscript{Adjectival predicate phrase}
 \z
 
-The minimal adjectival predicate phrase is illustrated in (4-10 a), where the head slot is filled by the adjectival word (see \sectref{sec:4.3.4} for more details).
+The minimal adjectival predicate phrases are illustrated in \REF{ex:4.10}, where the head slots are filled by the adjectival words (see \sectref{sec:4.3.4} for more details).
 
 \ea   \label{ex:4.10}
 \ea \textit{{}-sa} (\textsc{adj}) \label{ex:4.10a}\\\relax
   [Context: Looking at a fried vegetable]\\
-\glll  \textsc{tm}:  agɨ!  hɨɨsa.\\
+\glll   agɨ!  hɨɨsa.\\
     \textit{agɨ}  [\textit{hɨɨ-sa}]\textsubscript{Adjectival Predicate}\\
     oh  big-\textsc{adj}\\
     \glt     ‘Oh! (It is) big.’ [Co: 120415\_01.txt]
 
   \ex \textit{{}-soo} (\textsc{adj})\\
-\glll  \textsc{tm}:  agɨɨ!  kjurasoo.\\
+\glll   agɨɨ!  kjurasoo.\\
     \textit{agɨ}  [\textit{kjura-soo}]\textsubscript{Adjectival Predicate}\\
     oh  beautiful-\textsc{adj}\\
     \glt     ‘Oh! (It is) beautiful.’ [El: 130823]
     \z
 \z
 
-  There are two stative verbs \textit{ar-} and \textit{nə-}. In many cases, \textit{ar-} (\textsc{st}V) co-occurs with the adjective whose inflection is \textit{{}-sa} (\textsc{adj}) as in (4-11 a) (see \sectref{sec:8.3.4.1} for more details). \textit{nə-} (\textsc{stv}) co-occurs with the adjective whose inflection is \textit{{}-soo} (ADJ) as in (4-11 b) (see \sectref{sec:8.3.4.2} for more details).
+ Adjectives in Yuwan only inflect with \textit{-sa} (\textsc{adj}) or \textit{-soo} (\textsc{adj}) as in \REF{ex:4.10}. In other words, tense or mood of adjectives cannot be expressed by the adjectival inflections. In fact, they are expressed by stative verbs that constitute the adjectival predicate phrases with the adjectives. There are two stative verbs \textit{ar-} and \textit{nə-}, and they can take several verbal inflections (see \sectref{sec:8.3.4} for more details). In many cases, \textit{ar-} (\textsc{st}V) co-occurs with the adjective whose inflection is \textit{{}-sa} (\textsc{adj}) as in \REF{ex:4.11a} (see \sectref{sec:8.3.4.1} for more details), and \textit{nə-} (\textsc{stv}) co-occurs with the adjective whose inflection is \textit{{}-soo} (ADJ) as in \REF{ex:4.11b} (see \sectref{sec:8.3.4.2} for more details).
 
 \ea  \label{ex:4.11}
- \ea \textit{{}-sa} (\textsc{adj}) with \textit{ar-} (\textsc{st}V) \label{ex:4.11a}\\\relax
+ \ea \textit{{}-sa} (\textsc{adj}) with \textit{ar-} (\textsc{stv}) \label{ex:4.11a}\\\relax
   [Context: Remembering her childhood]\\
-\glll  \textsc{tm}:  asikencˀjuga  huusa  ata.\\
+\glll  asikencˀjuga  huusa  ata.\\
     \textit{asiken+cˀju=ga}  [\textit{huu-\Highlight{sa}}  \textit{\Highlight{ar}-tar}]\textsubscript{Adjectival Predicate}\\
-    Ashiken+person=\textsc{foc}  many-\textsc{adj}  \textsc{st}V-\textsc{pst}\\
+    Ashiken+person=\textsc{foc}  many-\textsc{adj}  \textsc{stv}-\textsc{pst}\\
     \glt     ‘There were many people from Ashiken.’ [Co: 120415\_00.txt]
 
- \ex\textit{{}-soo} (\textsc{adj}) with \textit{nə-} (\textsc{st}V)\\\relax
+ \ex\textit{{}-soo} (\textsc{adj}) with \textit{nə-} (\textsc{stv}) \label{ex:4.11b}\\\relax
   [Context: Talking about the wooden beams of \textsc{ms}’s house; MS: ‘(The wooden beams of my house) haven’t become as black as those (of your house), you know.’]\\
-\glll  \textsc{tm}:  kˀurusoo  nəndarooga.\\
-    \textit{kˀuru-\Highlight{soo}}  \textit{\Highlight{nə}-an=daroo=ga}\\
-    black-\textsc{adj}  \textsc{st}V-\textsc{neg}=\textsc{supp}=\textsc{cfm}3\\
+\glll   kˀurusoo  nəndarooga.\\
+    [\textit{kˀuru-\Highlight{soo}}  \textit{\Highlight{nə}-an}]\textsubscript{Adjectival Predicate}\textit{=daroo=ga}\\
+    black-\textsc{adj}  \textsc{stv}-\textsc{neg}=\textsc{supp}=\textsc{cfm}3\\
     \glt     ‘(Those) are not black, right?’ [Co: 111113\_01.txt]
     \z
 \z
+
+When we modify nominals with adjectives, we have two possibilities. First, nominals can be modified by adjectival roots in compounding, e.g. \textit{kjura+nɨsəə} (beautiful+young.man) ‘handsome young man’ (see \ref{sec:4.2.3.1}). Second, adjectives followed by stative verbs that take the participial inflection can also modifiy nominals, e.g. /waasan tuzituu/ \textit{waa-sa+ar-n tuzituu} (young-\textsc{adj}+\textsc{stv}-\textsc{ptcp} couple) ‘young couple’ (see \ref{sec:9.2.2.2}).
 
 \subsubsection{Nominal predicate}\label{sec:4.1.3.3}
 
@@ -258,7 +250,7 @@ Yuwan has four copula verbs: \textit{jar-}, \textit{zjar-}, \textit{nar-} and \t
       \textit{un}  \textit{tuki=n=nu}  \textit{juwəə=ja}  \textit{\Highlight{ar}-an}\\
       [that  time=\textsc{dat}1=\textsc{gen}  celebration]=\textsc{top}  \textsc{cop}-\textsc{neg}\\
       \{[NP]  Copular verb\}\textsubscript{Nominal predicate}\\
-      \glt       ‘Is (the photo about) the celebration at that time?’ [Co: 120415\_00.txt]
+      \glt       ‘Isn't (it the photo about) the celebration at that time?’ [Co: 120415\_00.txt]
     \z
 \z
 
@@ -288,11 +280,11 @@ For example, the nominal predicate takes the aspectual affix \textit{{}-təər} 
 \ea  Copular verb may appear \label{ex:4.16}\\\relax
   [Context: Seeing an album]\\
 %   \textsc{tm}:
-\gllll    doosje  noogusuku  zja.\\
+\gllll    doosje  noogusuku  zja. {}\\
     \textit{doosje}  \textit{noogusuku}  \textit{zjar}\\
     maybe  [Nogusuku  \textsc{cop}]\\
-      [NP  Copular verb]\textsubscript{Nominal predicate}\\
-    \glt     ‘(It) may be Nogusuku.’ [Co: 120415\_00.txt]
+      {} [NP  Copular verb]\textsubscript{Nominal predicate}\\
+    \glt     ‘(It) can be Nogusuku (place name).’ [Co: 120415\_00.txt]
 \z
 
   In addition, \textit{zjar-} (\textsc{cop}) always appears when the nominal predicate fulfills the conditions in \REF{ex:4.15}, and also is followed by \textit{jaa} (\textsc{sol}) or \textit{ga} (\textsc{cfm}3).
@@ -305,7 +297,7 @@ For example, the nominal predicate takes the aspectual affix \textit{{}-təər} 
     \glt     ‘(This picture) is the front of that pond.’ [Co: 111113\_02.txt]
 \z
 
-  On the contrary, if a nominal predicate fulfills all of the conditions in \REF{ex:4.15} and \REF{ex:4.18}, the copula verbs never appear as in (4-19 a-b).
+  In contrast, if a nominal predicate fulfills all of the conditions in \REF{ex:4.15} and \REF{ex:4.18}, the copula verbs never appear as in (4-19 a-b).
 
 \ea  Additional condition: \label{ex:4.18}\\
   Nominal predicate is followed by \textit{doo} (\textsc{ass}), \textit{daroo} (\textsc{supp}), \textit{ga} (\textsc{cfm}3), \textit{kai} (\textsc{du}B), \textit{joo} (CFM1), \textit{jaa} (\textsc{sol}), or \textit{na} (\textsc{plq}).
@@ -335,7 +327,9 @@ The example of \textit{kai} (\textsc{du}B) was shown in (4-2 b).
 \section{Basic morphological units}\label{sec:4.2}
 \subsection{Free form, clitic, and affix}\label{sec:4.2.1}
 
-As mentioned in \sectref{sec:2.1}, grammatical words comprise free forms and clitics. There are no prefixes or proclitics in Yuwan, although some personal names in Yuwan seem to have a prefix-like morpheme, e.g. \textit{\Highlight{u}-mine} (PRE\textsc{fi}X?-Mine) ‘Mine (personal name).’ The alleged formative \textit{u-}, however, is not productive in modern Yuwan, and only appears in the beginning of some personal names. Therefore, I treat it as a part of the root. The formative \textit{u-} seems to have originated from \textit{*o-}. This must have expressed politeness considering the cognate form \textit{o-} in standard Japanese, e.g. \textit{o-kasi} (\textsc{pol}-snack) and \textit{o-mise} (POL-shop). In fact, the speaker \textsc{tm} regards this /u/ as a part of the name, i.e., she thinks /mine/ is an official name and /umine/ is a private name. A similar argumentation can be made against the existence of the proclitic in Yuwan. For example, the formative \textit{naa} ‘more,’ as in \textit{naa+cˀjui} (more+one.\textsc{num}.\textsc{hum}) ‘one more person,’ looks like a proclitc in the sense that it is a bound grammatical formative that attaches to a free form. However, \textit{naa} may also be analyzed as a free form, which can function as an adverb (see aslo \sectref{sec:4.3.6}). In this case, \textit{naa+cˀjui} should be analyzed as a compound. That is, \textit{naa} is not categorized as a clitic (i.e. particle) but instead as a word (i.e. adverb) (see also \sectref{sec:4.2.3.1}).
+As mentioned in \sectref{sec:2.1}, grammatical words comprise free forms and clitics. Most of the word classes, i.e. nominals, verbs, adjectives, adverbs, and interjections, are free forms. Only particles are clitics. Free forms can be composed of one or more morpheme(s) (e.g. \textit{warabɨ} ‘child’ or \textit{warabɨ-kkwa} (child-\textsc{dim}) ‘little child’). Clitics follows free forms or other clitics (e.g. \textit{warabɨ=nkja} (child=\textsc{appr}) ‘children’ or \textit{warabɨ=nkja=nu} (child=\textsc{appr}=\textsc{nom}) ‘children (\textsc{nom})’).
+
+There are no prefixes or proclitics in Yuwan, although some personal names in Yuwan seem to have a prefix-like morpheme, e.g. \textit{\Highlight{u}-mine} (\textsc{prefix}?-Mine) ‘Mine (personal name).’ The alleged formative \textit{u-}, however, is not productive in modern Yuwan, and only appears in the beginning of some personal names. Therefore, I treat it as a part of the root. The formative \textit{u-} seems to have originated from \textit{*o-}. This must have expressed politeness considering the cognate form \textit{o-} in standard Japanese, e.g. \textit{o-kasi} (\textsc{pol}-snack) and \textit{o-mise} (POL-shop). In fact, the speaker \textsc{tm} regards this /u/ as a part of the name, i.e., she thinks /mine/ is an official name and /umine/ is a private name. A similar argumentation can be made against the existence of the proclitic in Yuwan. For example, the formative \textit{naa} ‘more,’ as in \textit{naa+cˀjui} (more+one.\textsc{num}.\textsc{hum}) ‘one more person,’ looks like a proclitic in the sense that it is a bound grammatical formative that attaches to a free form. However, \textit{naa} may also be analyzed as a free form, which can function as an adverb (see \sectref{sec:4.3.6}). In this case, \textit{naa+cˀjui} should be analyzed as a compound. That is, \textit{naa} is not categorized as a clitic (i.e. particle) but instead as a word (i.e. adverb) (see \sectref{sec:4.2.3.1}).
 
 There are two main criteria for distinguishing among free forms, clitics, and affixes.
 
@@ -362,13 +356,13 @@ The previous section mentioned that there is no proclitic in Yuwan, but there ar
 
 Copula verbs cannot occur only by themselves (except for the case discussed in (8-40) in \sectref{sec:8.4.3.3}), and they do not seem to have their own pitch pattern. However, I do not regard them as (en)clitics, since copula verbs behave differently from clitics when they occur after infinitives in the sentence-final position. Infinitives before clitics in the sentence-final position become the lengthened forms, but infinitives before copula verbs in the sentence-final position become the simple forms (see (8-108) in \sectref{sec:8.4.4.1} for more details).
 
-It should be mentioned that the stative verbs \textit{ar-} and \textit{nə-} cannot constitute a minimal utterance, and \textit{ar-} (\textsc{st}V) does not seem to have its own pitch pattern. (On the contrary, \textit{nə-} (\textsc{stv}) seems to have its own pitch pattern, i.e. the pitch pattern III.) In fact, \textit{ar-} (STV) is in the process of grammaticalization, which is apparent from the fact that it undergoes contraction with the preceding adjective in some environments (see \sectref{sec:9.2.2.2} for more details). I do not use the clitic-boundary marker “=” before \textit{ar-} (STV) to maintain the structural parallelism between \textit{ar-} (STV) and \textit{nə-} (STV), but it may be appropriate to regard the stative verb composed of \textit{ar-} as an enclitic in modern Yuwan.
+It should be mentioned that the stative verbs \textit{ar-} and \textit{nə-} cannot constitute a minimal utterance, and \textit{ar-} (\textsc{st}V) does not seem to have its own pitch pattern. (In contrast, \textit{nə-} (\textsc{stv}) seems to have its own pitch pattern, i.e. the pitch pattern III.) In fact, \textit{ar-} (STV) is in the process of grammaticalization, which is apparent from the fact that it undergoes contraction with the preceding adjective in some environments (see \sectref{sec:9.2.2.2} for more details). I do not use the clitic-boundary marker “=” before \textit{ar-} (STV) to maintain the structural parallelism between \textit{ar-} (STV) and \textit{nə-} (STV), but it may be appropriate to regard the stative verb composed of \textit{ar-} as an enclitic in modern Yuwan.
 
 \subsubsection{Affix-like clitics}\label{sec:4.2.2.2}
 
-Yuwan has two types of clitics that have similarity with affixes.
+Yuwan has three types of clitics that have similarity with affixes.
 
-  First, some clitics in Yuwan have similarity with affixes in terms of the formal boundedness of the host morpheme. In many cases, affixes can follow bound verbal stems, but clitics cannot. However, there are some clitics that can follow bound verbal stems, i.e. \textit{sɨ} (\textsc{fn}), \textit{doo} (\textsc{ass}), \textit{ka} (\textsc{du}B), \textit{kai} (\textsc{dub}), \textit{kamo} (\textsc{pos}), \textit{ga} (\textsc{cfm}3), and \textit{gajaaroo} (DUB) (see also chapter 10). For example, the verbal affix \textit{{}-jur} (\textsc{umrk}) cannot finish an utterance, and \textit{jum-jur} (read-UMRK) is a bound verbal stem. An inflectional affix, e.g. \textit{{}-i} (\textsc{npst}), has to follow it to make it a free form, i.e. /jum-ju-i/ \textit{jum-jur-i} (read-UMRK-N\textsc{pst}) ‘(Someone) reads.’ According to the criteria shown in \tabref{tab:24}, the above seven clitics are not affixes, since they can follow more than one word class. However, those clitics are similar to the inflectional verbal affixes since they can follow bound verbal stems: /jum-ju=sɨ/\footnote{There is a morphophonological rule (see §\ref{bkm:Ref347177215}): jur + sɨ > jusɨ.} (read-UMRK=FN) ‘something to read,’ /jum-jut=too/\footnote{There is a morphophonological rule and a phonological rule (see §\ref{bkm:Ref347177096} and §\ref{bkm:Ref347178914}): jur + doo > juddoo > juttoo.} (read-UMRK=ASS) ‘(I) will read,’ and /jum-juk=kai/\footnote{There is a morphophonological rule (see §\ref{bkm:Ref347177096}): jur + kai > jukkai.} (read-UMRK=DUB) ‘Will you read?’, and so forth. Considering these facts, the above seven clitics are somewhere between clitics and affixes.
+  First, some clitics in Yuwan have similarity with affixes in terms of the formal boundedness of the host morpheme. In many cases, affixes can follow bound verbal stems, but clitics cannot. However, there are some clitics that can follow bound verbal stems, i.e. \textit{sɨ} (\textsc{fn}), \textit{doo} (\textsc{ass}), \textit{ka} (\textsc{du}B), \textit{kai} (\textsc{dub}), \textit{kamo} (\textsc{pos}), \textit{ga} (\textsc{cfm}3), and \textit{gajaaroo} (DUB) (see chapter 10). For example, the verbal affix \textit{{}-jur} (\textsc{umrk}) cannot finish an utterance, and \textit{jum-jur} (read-UMRK) is a bound verbal stem. An inflectional affix, e.g. \textit{{}-i} (\textsc{npst}), has to follow it to make it a free form, i.e. /jum-ju-i/ \textit{jum-jur-i} (read-UMRK-N\textsc{pst}) ‘(Someone) reads.’ According to the criteria shown in \tabref{tab:24}, the above seven clitics are not affixes, since they can follow more than one word class. However, those clitics are similar to the inflectional verbal affixes since they can follow bound verbal stems: /jum-ju=sɨ/\footnote{There is a morphophonological rule (see §\ref{bkm:Ref347177215}): jur + sɨ > jusɨ.} (read-UMRK=FN) ‘something to read,’ /jum-jut=too/\footnote{There is a morphophonological rule and a phonological rule (see §\ref{bkm:Ref347177096} and §\ref{bkm:Ref347178914}): jur + doo > juddoo > juttoo.} (read-UMRK=ASS) ‘(I) will read,’ and /jum-juk=kai/\footnote{There is a morphophonological rule (see §\ref{bkm:Ref347177096}): jur + kai > jukkai.} (read-UMRK=DUB) ‘Will you read?’, and so forth. Considering these facts, the above seven clitics are somewhere between clitics and affixes.
 
   Second, a few clitics in Yuwan have similarity with affixes in terms of the constraint on the selection of the hosts’ stem classes. Briefly speaking, there are morphemes that do not conform to the second criterion in \tabref{tab:24}, but that will be treated as clitics, i.e. \textit{ban} (\textsc{advrs}) and \textit{mun} (ADVRS). They always follow a verb (concretely speaking, a participle). A participle usually fills the predicate slot of an adnominal clause, as in (4-20 a). However, it can fill the predicate slot of an adverbial clause if it is followed by \textit{ban} (ADVRS) as in (4-20 b).
 
@@ -390,11 +384,13 @@ Yuwan has two types of clitics that have similarity with affixes.
     \z
 \z
 
-Considering the second criterion in \tabref{tab:24}, \textit{ban} (\textsc{advrs}) has to be classified into affixes since it cannot follow more than one word class. However, I propose \textit{ban} (ADVRS) as an clitic (not an affix) because I do not assume there is an additional inflectional slot after the participial affix slot. In other words, there is no beneficial reason to interpret the participial affix \textit{{}-n} as an ambivalent affix that is able to both close and not close a word, similar to the past affix \textit{{}-tar} or the negative affix \textit{{}-an} (see \sectref{sec:8.1} for discussion about ambivalent affixes). The only possible candidates that can follow \textit{{}-n} (\textsc{ptcp}) are the two morphemes mentioned above, which is different from \textit{{}-tar} (\textsc{pst}) and \textit{{}-an} (\textsc{neg}), which can precede a number of verbal inflectional affixes. Thus, I do not regard \textit{ban} (ADVRS) and \textit{mun} (ADVRS) as affixes. Rather, I propose that they are conjunctive particles (see \sectref{sec:10.2}).
+Considering the second criterion in \tabref{tab:24}, \textit{ban} (\textsc{advrs}) has to be classified into affixes since it cannot follow more than one word class. However, I propose \textit{ban} (ADVRS) as an clitic (not an affix) because I do not assume there is an additional inflectional slot after the participial affix slot. In other words, there is no reason to interpret the participial affix \textit{{}-n} as an ambivalent affix that is able to both close and not close a word, similar to the past affix \textit{{}-tar} or the negative affix \textit{{}-an} (see \sectref{sec:8.1} for discussion about ambivalent affixes). The only possible candidates that can follow \textit{{}-n} (\textsc{ptcp}) are the two morphemes mentioned above, which is different from \textit{{}-tar} (\textsc{pst}) and \textit{{}-an} (\textsc{neg}), which can precede a number of verbal inflectional affixes. Thus, I do not regard \textit{ban} (ADVRS) and \textit{mun} (ADVRS) as affixes. Rather, I propose that they are conjunctive particles (see \sectref{sec:10.2}).
 
-\subsection{Stems and its morphological operations}\label{sec:4.2.3}
+Finally, the case particles in Yuwan always follow nominals (see \sectref{sec:6.3.2}), which does not conform to the second criterion in \tabref{tab:24}. However, I will categorize them into clitics (not affixes) because they can follow other clitics. For example, the accusative case particle \textit{ba} always follows nominals. However, it can follow another particle, e.g. \textit{u-rɨ=nkja=ba} (\textsc{mes-nlz=appr=acc}) 'those things (\textsc{acc})' (see (\ref{ex:8-83}c)). The particle \textit{nkja} is a clitic because it can follow nominals as well as verbs (see \sectref{sec:10.1.6}). Any clitic is not a component of free forms, but an affix is a component of free forms. Thus, case markers, which can follow clitics, are difficult to be analyzed as affixes, since the preceding clitic is not a part of a free form, which means the case marker following the clitic cannot be a part of a free form either.
 
-The term stem is used to describe the combination of a root and a derivational affix (or affixes) (see \sectref{sec:8.1} for the distinction between derivational affixes and an inflectional affix).
+\subsection{Stems and their morphological operations}\label{sec:4.2.3}
+
+The term “stem” is used to describe the combination of a root and a derivational affix (or affixes) (see \sectref{sec:8.1} for the distinction between derivational affixes and an inflectional affix).
 
 \ea  Stem: \{Root(-Derivational affix(es))\}\textsubscript{stem} \label{ex:4.21} \z
 
@@ -404,11 +400,13 @@ The minimal word is made of a minimal stem, which is summarized as follows.
 
 \ea  Minimal word: [\{Root\}\textsubscript{stem}]\textsubscript{word} \label{ex:4.22}\z
 
-In the following subsections, we will discuss two types of complex stems, i.e. compounding (see \sectref{sec:4.2.3.1} and \sectref{sec:4.2.3.2}) and reduplication (see \sectref{sec:4.2.3.3}). In \sectref{sec:4.2.3.4}, I will present the morphophonological rule for compounding, i.e. “rendaku” (sequential voicing).
+Since Yuwan does not have any prefix (see \sectref{sec:4.2.1}), morphological roots in Yuwan always occur in the word-initial position. Then, examples of bound roots in this grammar are visually indicated by the hyphen (“-”) following them, e.g. \textit{jum-} ‘read’ (bound verbal root) and \textit{aa-} ‘red’ (bound adjectival root). Free roots are expressed without any hyphen, e.g. \textit{isi} ‘stone’ (nominal free root) and \textit{muru} ‘very’ (adverbial free root).
 
-\subsubsection{Compounding (ordinary type)}\label{sec:4.2.3.1}
+In the following subsections, we will discuss two types of complex stems, i.e. compounding (see \sectref{sec:4.2.3.1}) and reduplication (see \sectref{sec:4.2.3.3}). In \sectref{sec:4.2.3.4}, I will present the morphophonological rule for compounding, i.e. “rendaku” (sequential voicing).
 
-A compound is a complex stem that usually constitutes a grammatical word as in (4-23 a). However, there is a case where the complex stem itself does not constitute a grammatical word, and such a stem needs an inflection to become a free form as in (4-23 b).
+\subsubsection{Compounding}\label{sec:4.2.3.1}
+
+A compound is a complex stem that usually constitutes a grammatical word as in (\ref{ex:4.23a}). However, there is a case where the complex stem itself does not constitute a grammatical word, and such a stem needs an inflection to become a free form as in (\ref{ex:4.23b}).
 
 \ea \label{ex:4.23}
 \ea Compounded nominal stem \label{ex:4.23a}\\
@@ -417,7 +415,7 @@ A compound is a complex stem that usually constitutes a grammatical word as in (
     [\{Stem\textsubscript{1}+Stem\textsubscript{2}\}\textsubscript{compound}]\textsubscript{word}\\
     \glt ‘hut (in order to make) sugar (from sugarcane)’
     
-\ex Compounded verbal stem\\
+\ex Compounded verbal stem \label{ex:4.23b}\\
 \glll \textit{izjas-i+kij-an}\\
     let.out-\textsc{inf}+\textsc{cap}-\textsc{neg}\\
     [\{Stem\textsubscript{1}+Stem\textsubscript{2}\}\textsubscript{compound}{}-Affix]\textsubscript{word}\\
@@ -425,7 +423,7 @@ A compound is a complex stem that usually constitutes a grammatical word as in (
 \z
 \z
 
-The first example shows a nominal compound made up of two stems, i.e. \textit{sataa} ‘sugar’ and \textit{jadui} ‘hut.’ The second example shows a verbal compound made up of two stems, where Stem\textsubscript{1} is composed of the infinitive \textit{izjas-i} (let.out-\textsc{inf}) and Stem\textsubscript{2} is composed of the verbal root \textit{kij-} (\textsc{cap}). The compound becomes a verbal stem and it takes the verbal affix \textit{-an} (\textsc{neg}). In many cases, the head of a compound is put at the final position in the compound as in (4-23 a-b), although there are a few exceptions.
+The first example shows a nominal compound made up of two stems, i.e. \textit{sataa} ‘sugar’ and \textit{jadui} ‘hut.’ The second example shows a verbal compound made up of two stems, where Stem\textsubscript{1} is composed of the infinitive \textit{izjas-i} (let.out-\textsc{inf}) and Stem\textsubscript{2} is composed of the verbal root \textit{kij-} (\textsc{cap}). The compound becomes a verbal stem and it takes the verbal affix \textit{-an} (\textsc{neg}). In many cases, the head of a compound is put at the final position in the compound as in (\ref{ex:4.23}a-b), although there are a few exceptions.
 
   The possible combinations of different classes of stems in the two-stem compounds are shown below.
 
@@ -436,7 +434,7 @@ The first example shows a nominal compound made up of two stems, i.e. \textit{sa
 Preceding stem class  & \multicolumn{3}{c}{Following stem class}\\\cmidrule(lr){2-4}
 & N & V & A\\\midrule
 N(ominal)       & N+N  & N+V & N+A\\
-V(erb)          & V\textsubscript{inf}+N &  V\textsubscript{inf}+V & V\textsubscript{inf}+A\\
+V(erb)          & V\textsubscript{inf}+N &  V\textsubscript{inf}+V & {}\\
 A(djective)     & A+N & A+V & A+A\\
 Adv(erb)        & Adv+N & {}-  & {}-\\
 D(emonstrative) & {}- & {}- & D+A\\
@@ -445,9 +443,9 @@ I(nterrogative) & I+N & {}- & I+A\\
 \end{tabularx}
 \end{table}
 
-In a compound, the verbal stem at non-stem-final position is in infinitive (V\textsubscript{inf} in the above table; see \sectref{sec:8.4.4}).
+In a compound, the verbal stem at non-stem-final position is in infinitive (V\textsubscript{inf} in \tabref{tab:25}; see \sectref{sec:8.4.4}).
 
-Each combination in \tabref{tab:25} is illustrated below, with the exception of the combination V\textsubscript{inf}+A, which will be discussed in \sectref{sec:4.2.3.2}. The first examples are compounds that have nominal stems at thier final positions. The resulting compounds always become nominal stems.
+Each combination in \tabref{tab:25} is illustrated below. The first examples are compounds that have nominal stems at their final positions. The resulting compounds always become nominal stems.
 
 \ea \label{ex:4.24}
 \ea N+N \label{ex:4.24a}\\\relax
@@ -461,7 +459,7 @@ Each combination in \tabref{tab:25} is illustrated below, with the exception of 
 \ex  V+N\\
 % \textsc{tm}:
 \glll    hingimadoo  nənta.\\
-      <\textit{hingir-i+madu}>\textsubscript{Compound}\textit{=ja}  \textit{nə-an=tar}\\
+      <\textit{hingir-∅+madu}>\textsubscript{Compound}\textit{=ja}  \textit{nə-an=tar}\\
       escape-\textsc{inf}+time=\textsc{top}  exist-\textsc{neg}=\textsc{pst}\\
       \glt       ‘There was no time to escape.’ [El: 120926]
 
@@ -493,7 +491,7 @@ Each combination in \tabref{tab:25} is illustrated below, with the exception of 
 
 The verbal root preceding the nominal stem always takes the infinitival affix as in (4-24 b) (see \sectref{sec:8.4.4} for infinitives). If the adverbial root \textit{naa} ‘other; already’ makes up a compound as in (4-24 d), the following nominal is always a numeral (see \sectref{sec:7.4} for discussion of numerals). I found only one example of the combination of I + N, i.e. \textit{daa}+\textit{cˀju} (where+person) as in (4-24 e).
 
-The next examples are compounds that have verbal stems at thier final positions.
+The next examples are compounds that have verbal stems at their final positions.
 
 \ea \label{ex:4.25} \ea  N+V \label{ex:4.25a}\\relax
     [Context: Talking about thatched houses with US]\\
@@ -521,21 +519,21 @@ The next examples are compounds that have verbal stems at thier final positions.
     \z
 \z
 
-If a stem that precedes a verbal stem is a nominal one as in (4-25 a) or an adjectival one as in (4-25 c), the verbal stem always become an infinitive. However, if the initial stem is a verbal one, the final verbal stem can take any verbal inflection as in (4-25 b) (see also \sectref{sec:8.5.2}).
+If a stem that precedes a verbal stem is a nominal one as in (4-25 a) or an adjectival one as in (4-25 c), the verbal stem always become an infinitive. However, if the initial stem is a verbal one, the final verbal stem can take any verbal inflection as in (4-25 b) (see \sectref{sec:8.5.2}).
 
-  Finally, the following examples are compounds that have adjectival stems at thier final positions. The examples of “V+A” will be discussed in the next section. The resulting compounds become adjectival stems as in (4-26 a-b) or adverbial stems as in (4-26 c-e).
+  Finally, the following examples are compounds that have adjectival stems at their final positions. The examples of “V+A” will be discussed in the next section. The resulting compounds become adjectival stems as in (4-26 a-b) or adverbial stems as in (4-26 c-e).
 
 \ea 
 \exi{} N+A \label{ex:4.26}
 
-\ea\relax [Context: Talking about a female singer of traditional songs; \textsc{tm}: ‘Actually, the recorded tape makes some noise, but ...’]\\
+\ea\relax [Context: Talking about a female singer of traditional songs; \textsc{tm}: ‘Actually, the tape recording makes some noise, but ...’]\\
 % \textsc{tm}:
 \glll    kuigjurasa  utəəja  sjuijaa.\\
       <\textit{kui+kjura>}\textsubscript{Compound}\textit{{}-sa}  \textit{utaw-i=ja}  \textit{sɨr-jur-i=jaa}\\
       voice+beautiful-\textsc{adj}  sing-\textsc{inf}=\textsc{top}  do-\textsc{umrk}-\textsc{npst}=\textsc{sol}\\
       \glt       ‘(She) sings beautifully, you know.’ [Co: 120415\_00.txt]
 
-\exi{} A+A
+\exi {A+A}
 
 \ex\label{ex:4.26b}  
 % \textsc{tm}:
@@ -544,7 +542,7 @@ If a stem that precedes a verbal stem is a nominal one as in (4-25 a) or an adje
       \textsc{dist}-\textsc{adn}Z  woman=\textsc{top}  small+beautiful-\textsc{adj}=\textsc{sol}\\
       \glt       ‘That woman is small and beautiful.’ [El: 130812]
 
-\exi{} D+A
+\exi{D+A}
 
 \ex\relax [Context: Talking about a big banyan tree, which was lost in World War II]\\\label{ex:4.26c}
 % \textsc{tm}:
@@ -553,7 +551,7 @@ If a stem that precedes a verbal stem is a nominal one as in (4-25 a) or an adje
       brach=\textsc{top}  \textsc{mes}-\textsc{advz}=only  do-\textsc{pst}=\textsc{fn}=\textsc{appr}=\textsc{nom}  throughout   \textsc{dist}+distant=only=\textsc{lmt}  come-\textsc{seq}     \\
     \glt       ‘A branch, which was around this size, came to such a distance, and...’ [Co: 111113\_02.txt]
 
-\exi{}  I+A
+\exi{I+A} 
 
 \ex\relax [Context: \textsc{tm} wondered when winnows in the picture disappeared from their life.]\\\label{ex:4.26d}
 %  \textsc{tm}:
@@ -574,241 +572,9 @@ If the initial stem is a nominal one as in (4-26 a) or an adjectival one as in (
 
 Among the above compounds, N+N and N+V are very productive. Compounds made of three roots, such as /kˀwa+dak-i+kˀjubii/ (child+hold-\textsc{inf}+cord) ‘a cord to hold a baby’ and /tuzi+kaməə-∅+juwəə/ (wife+ put.over.head-INF+celebration) ‘wedding,’ are likely to be N+V+N. I have not yet found a compound composed of more than three roots.
 
-\subsubsection{Compounding (special type)}\label{sec:4.2.3.2}
-
-There are compounds whose final stems can appear only in compounding.
-
-\ea \label{ex:4.27}
-\ea Nominal stems in the compounds “V+N” \label{ex:4.27a}
-\begin{xlisti} \ex  \textit{zjaa} ‘place,’ \textit{bəə} ‘role’
-\ex \textit{mai} (\textsc{obl}), \textit{madəə} ‘fail to,’ \textit{gjaa} (\textsc{purp})
-\end{xlisti}
-\ex Adjectival stems in the compounds “V+A”\\\label{ex:4.27b}
-    \textit{cja} ‘want,’ \textit{cjagɨ} ‘seem,’ \textit{jass} ‘easy,’ \textit{gussj} ‘difficult’
-\z
-\z  
-
-The compounds whose final stems are those in (4-27 a) become nominal stems, and the compounds whose final stems are those in (4-27 b) become adjectival stems. Semantically, the morpheme in (4-27 a-1) have more concrete meaning than those in (4-27 a-2). In fact, the former can be an argument NP, but the latter cannot. Compounds composed of the morphemes in (4-27 a-2) can fill the predicate slot, complement slot, or NP modifier slot.
-
-I will present examples of \textit{zjaa} ‘place’ and \textit{bəə} ‘role’ in the following examples, in which the compounds are argument NPs as in (4-28 b, e) and predicate NPs as in (4-28 a, c, d). The compounds are underlined in the following examples.
-
-\ea  \textit{zjaa} ‘place’ \label{ex:4.28}
-\ea\label{ex:4.28a}
-\glll  \textsc{tm}:  umaga  asɨbizjaa  jatattujaa.\\
-      \textit{u-ma=ga}  \textit{\Highlight{asɨb-i+zjaa}}  \textit{jar-tar-tu=jaa}\\
-      \textsc{mes}-place=\textsc{nom}  play-\textsc{inf}+place  \textsc{cop}-\textsc{pst}-\textsc{csl}=\textsc{sol}\\
-      \glt       ‘That place was the place to play, you know.’ [Co: 110328\_00.txt]
-
-\ex\label{ex:4.28b}
-%  \textsc{tm}:
-  \glll  ukizjaa  katəətattu.\\
-      \textit{\Highlight{uk-i+zjaa}}  \textit{kar-təər-tar-tu}\\
-      put-\textsc{inf}+place  borrow-\textsc{rsl}-\textsc{pst}-\textsc{csl}\\
-      \glt       ‘(They) had borrowed a place to put (something).’ [Co: 120415\_00.txt]
-
-\exi{} \textit{bəə} ‘role’
-% \textsc{tm}:
-\ex\label{ex:4.28c}
-\glll  un  cˀjuga  ucibəə.\\
-      \textit{u-n}  \textit{cˀju=ga}  \textit{\Highlight{ut-i+bəə}}\\
-      \textsc{mes}-\textsc{adn}Z  person=\textsc{nom}  hit-\textsc{inf}+role\\
-      \glt       ‘That person (fills) the role of hitting (a big bell in emergency).’ [Co: 111113\_02.txt]
-
-\ex\relax [Context: Remembering a pond that was close to the community’s watering place]\\
-%  \textsc{tm}:
-\glll     waakja  {\textbar}nenzjuu{\textbar}  mɨzɨkˀumbəə  jatattu.\\
-      \textit{waakja}  \textit{nenzjuu}  \textit{mɨzɨ+\Highlight{kˀum-∅+bəə}}  \textit{jar-tar-tu}\\
-      1\textsc{pl}  always  water+scoop-\textsc{inf}+role  \textsc{cop}-\textsc{pst}-\textsc{csl}\\
-      \glt       ‘I would always fill the role of scooping water.’ [Co: 120415\_00.txt]
-\ex % \textsc{tm}:
-\glll   ucibəənu  wutattoo.\\
-      \textit{\Highlight{ut-i+bəə}=nu}  \textit{wur-tar=doo}\\
-      hit-\textsc{inf}+role=\textsc{nom}  exist-\textsc{pst}=\textsc{ass}\\
-      \glt       ‘There was person (who filled) the role of hitting (a hand drum).’ [El: 140227]
-    \z
-\z
-
-These compounds are very similar in structure to the V+N compound in (4-24 b) in \sectref{sec:4.2.3.1}, e.g. \textit{hing-i+madu} (escape-\textsc{inf}+time). However, \textit{zjaa} ‘place’ and \textit{bəə} ‘role’ are crucially different from \textit{madu} ‘time’ in that they cannot be analyzed as filling the head slot of an NP. As is shown in (4-29 a-b), they cannot be modified by NP modifiers such as adnominal clasues.
-
-\ea  Cannot be modified by adnominal clauses \label{ex:4.29}
-\ea\label{ex:4.29a}
-%  \textsc{tm}:
-\glll   *kumoo  asɨbjun  zjaadoo.\\
-       \textit{ku-ma=ja}  \textit{\Highlight{asɨb-jur-n}}  \textit{\Highlight{zjaa}=doo}\\
-      \textsc{prox}-place=\textsc{top}  play-\textsc{umrk}-\textsc{ptcp}  place=\textsc{ass}\\
-      \glt       (Intended meaning) ‘Here is the place to play.’ [El: 130816]
-
-\ex\label{ex:4.29b} % \textsc{tm}:
-\glll  *arəə  ucjun  bəədoo.\\
-       \textit{a-rɨ=ja}  \textit{\Highlight{ut-jur-n}}  \textit{\Highlight{bəə}=doo}\\
-       \textsc{dist}-\textsc{nlz}=\textsc{top}  hit-\textsc{umrk}-\textsc{ptcp}  role=\textsc{ass}\\
-      \glt       (Intended meaning) ‘That person fills the role to hit (the bell).’ [El: 130816]
-    \z
-\z
-
-The above examples show that \textit{zjaa} ‘place’ and \textit{bəə} ‘role’ cannot head an NP. In this regard, they are distinct from formal nouns (see \sectref{sec:6.2.2}).
-
-By contrast, the noun \textit{madu} ‘time’ can be modified by an adnominal clause just as in the case of ordinary nouns as in (4-30 a). Additionally, \textit{madu} ‘time’ can be used without any NP modifier as in (4-30 b). On the contrary, \textit{zjaa} ‘place’ and \textit{bəə} ‘role’ cannot be used in either case.
-
-\ea \label{ex:4.30}
-\ea Can be modified by an adnominal clause\\\label{ex:4.30a}
-% \textsc{tm}:
-\glll  asɨbjun  madunkjoo  nən.\\
-    \textit{asɨb-jur-n}  \textit{\Highlight{madu}=nkja=ja}  \textit{nə-an}\\
-    \{[play-\textsc{umrk}-\textsc{ptcp}]\textsubscript{Adnominal clause} time\}\textsubscript{NP}=\textsc{appr}=\textsc{top}  exist-\textsc{neg}\\
-    \glt     ‘There is no time to play.’ [El: 130816]
-
-\ex Can be used without any NP modifier\\\label{ex:4.30b}
-\glll  \textsc{tm}:  uroo  madoo  nənna?\\
-    \textit{ura=ja}  \textit{\Highlight{madu}=ja}  \textit{nə-an=na}\\
-    2.N\textsc{hon}.\textsc{sg}=\textsc{top}\textsubscript{} \{time\}\textsubscript{NP}=TOP  exist-\textsc{neg}=\textsc{plq}\\
-    \glt     ‘Don’t you have the time?’ [El: 130816]
-\z
-\z
-
-The comparison between \textit{zjaa} ‘place’ and \textit{bəə} ‘role’ on one hand, \textit{madu} ‘time’ on the other indicates that the former morphemes are bound nominal roots which cannot head an NP by itself. Hence, they are “special types” of the root which occurs only in compounding.
-
-The second type of special componds involve \textit{mai} (\textsc{obl}), \textit{madəə} ‘fail to,’ and \textit{gjaa} (\textsc{purp}). These nominal stems are similar to \textit{zjaa} ‘place’ and \textit{bəə} ‘role’ in that they are always preceded by verbal infinitives and cannot head an NP. In \REF{ex:4.31}, \textit{mai} (OBL) serves as the nominal predicate.
-
-\ea  \textit{mai} (\textsc{obl}) in the deontic modality \label{ex:4.31}
-  \ea\relax [Context: Remembering the bankruptcy of a shop in the past]\\
-% \textsc{tm}:
-\gllll {\textbar}sjeiri{\textbar}  siimai  jatancjɨ  aran?\\
-      \textit{sjeiri}  \textit{\Highlight{sɨr-i+mai}}  \textit{jar-tar-n=ccjɨ}  \textit{ar-an}\\
-      [disposal  do-\textsc{inf}+\textsc{obl}  \textsc{cop}-\textsc{pst}-\textsc{ptcp}]=\textsc{qt}  COP-\textsc{neg}\\
-      [Nominal predicate]  \\
-      \glt       ‘(The people who had invested their money in the shop) had to dispose (the goods), hadn’t they?’ [Co: 120415\_01.txt]
-\ex \label{ex:4.31b}%\textsc{tm}:
-\gllll kakimaija  aranta.\\
-      \textit{\Highlight{kak-i+mai}=ja}  \textit{ar-an-tar}\\
-      [write-\textsc{inf}+\textsc{obl}=\textsc{top}  \textsc{cop}-\textsc{neg}-\textsc{pst}]\\
-      [Nominal predicate]\\
-      \glt       ‘(It) is not necessary to write.’ [El: 111105]
-    \z
-\z
-
-As is illustrated in the above examples, \textit{mai} (\textsc{obl}) designates “deontic modality” \citep[823]{Lyons1977}. When \textit{mai} (OBL) occurs in negative, the sentence means that there is no obligation to do the action indicated by the verbal stem as in (4-31 b). In addtion, \textit{mai} (OBL) designates “epistemic modality” \citep[793-809]{Lyons1977} as well, as in \REF{ex:4.32}.
-
-\ea  \textit{mai} (\textsc{obl}) in the epistemic modality \label{ex:4.32}\\
-% \textsc{tm}:
-  \gllll təəhunu  kjuncjuuba,  amɨn   huimaidoojaa.\\
-    \textit{təəhu=nu}  \textit{k-jur-n=ccjɨ+jˀ-ba}  \textit{amɨ=n} \textit{\Highlight{hur-i+mai}=doo=jaa}\\                                                                   
-    typhoon=\textsc{nom}  come-\textsc{umrk}-\textsc{ptcp}=\textsc{qt}+say-\textsc{csl}  [rain]=also  [fall-\textsc{inf}+\textsc{obl}]=\textsc{ass}=\textsc{sol}\\
-        [Subject]                                         [Nominal predicate]\\
-  \glt ‘Since (they said ) that the typhoon will come, it must rain [lit. the rain must fall].’  [El: 120929]
-\z
-
-This epistemic use of \textit{mai} (\textsc{obl}) is only attested in elicitation.
-
-In \REF{ex:4.33}, \textit{madəə} depicts that the action denoted by the stem failed to complete. Syntactically, the compound fills the predicate slot as in (4-33 a) or fills the complement slot of the light verb construction (\textsc{lvc}) as in (4-33 b).
-
-\ea \label{ex:4.33}
-\ea \textit{madəə} ‘fail to’ in the predicate \label{ex:4.33a}\\
-\textsc{tm}: \gllll    kakimadəə  jata.\\
-    \textit{\Highlight{kak-i+madəə}}  \textit{jar-tar}\\
-    [write-\textsc{inf}+fail.to  \textsc{cop}-\textsc{pst}]\\
-    [Nominal predicate]\\
-  \glt     ‘(I wanted to write, but I) failed to write.’ [El: 111105]
-
-\ex \textit{madəə} ‘fail to’ in the complement slot of \textsc{lvc}\\
-\textsc{tm}: \gllll    kakimadəə  sja.\\
-    \textit{\Highlight{kak-i+madəə}}  \textit{sɨr-tar}\\
-    [write-\textsc{inf}+fail.to]  do-\textsc{pst}\\
-    [Complement]  \\
-  \glt     ‘(I wanted to write, but I) failed to write.’ [El: 111105]
-  \z
-\z
-
-The final example is \textit{gjaa} (\textsc{purp}), which means that the subject has a purpose to do the action indicated by the verbal stem. Syntactically, it fills the predicate as in (4-34 a) or is followed by the genitive case as in (4-34 b). Additionally, it can fill the complement slot of the deictic motion verbs \textit{ik-} ‘go’ and \textit{k-} ‘come’ as in (4-34 c-d).
-
-\ea \label{ex:4.34}
-  \ea \textit{gjaa} (\textsc{purp}) in the predicate \label{ex:4.34a}\\\relax
-    [Context: Explaining the difference between the Bon festival and the celebration of the New Year’s day]\\
-%     \textsc{tm}:
-\gllll 
-    {\textbar}sjoogacu{\textbar}ja,  naa,  jˀuuboo,  namanu  {\textbar}nentoo{\textbar}   jˀiigjaa  jappa.\\
-      \textit{sjoogacu=ja}  \textit{naa}  \textit{jˀ-boo}  \textit{nama=nu}  \textit{nentoo}   \textit{\Highlight{jˀ-i+gjaa}}  \textit{jar-ba}\\                                                                                               
-      New.Year’s.day=\textsc{top}  \textsc{fil}  say-\textsc{cnd}  now=\textsc{gen}  beginning.of.a.year                           [say-\textsc{inf}+\textsc{purp}  say-\textsc{csl}]\\
-                                                                                               [Nominal predicate]\\
-      \glt ‘About the New Year’s day, (the relatives gather just) in order to say (what), if we call (it in the terms) of these days, (we call) New year greetings.’ [Co: 111113\_01.txt]
-\ex  \textit{gjaa} (\textsc{purp}) followed by \textit{nu} (\textsc{gen})\\\label{ex:4.34b}
-%  \textsc{tm}:
-\gllll    jˀiigjaanu  cɨmuisjɨ  acɨmajunwakejo.\\
-      \textit{\Highlight{jˀ-i+gjaa}=nu}  \textit{cɨmui=sjɨ}  \textit{acɨmar-jur-n=wake=joo}\\
-      [say-\textsc{inf}+\textsc{purp}]=\textsc{gen}  intention=\textsc{inst}  gather-\textsc{umrk}-\textsc{ptcp}=\textsc{cfp}=\textsc{cfm}1\\
-      [NP]=\textsc{gen}    \\
-      \glt       ‘(The relatives) gather (as if) they intended to say (only New year greetings.’ [Co: 111113\_01.txt]
-
-\ex \textit{gjaa} (\textsc{purp}) in the complement slot of \textit{ik-} ‘go’\\\label{ex:4.34c}
-\gllll    \textsc{tm}:  usi  tuigjaa  izjattoo,\\
-      \textit{usi}  \textit{\Highlight{tur-i+gjaa}}  \textit{ik-tar-too}\\
-      cow  [take-\textsc{inf}+\textsc{purp}]  [go-\textsc{pst}-\textsc{csl}]\\
-        [Complement]  [Lexical verb]\\
-      \glt       ‘(The man) went to take the cow, and then ...’ [Fo: 090307\_00.txt]
-
-\ex \textit{gjaa} (\textsc{purp}) in the complement slot of \textit{k-} ‘come’\\
-%     \textsc{tm}:
-\gllll masakoga  {\textbar}asaban{\textbar}  kamgjaa  kˀuuboo,  jazin   {\textbar}medamajaki{\textbar}.\\
-      \textit{masako=ga}  \textit{asa+ban}  \textit{\Highlight{kam-∅+gjaa}}  \textit{kˀ-boo}  \textit{jazin} medamajaki\\                                                                                                
-      Masako=\textsc{nom}  morning+evening  [eat-\textsc{inf}+\textsc{purp}]  [come-\textsc{cnd}]  necessarily                       sunny.side.up\\
-          [Complement]  [Lexical verb]\\
-\glt  ‘When Masako comes to eat the breakfast and the supper, (I) necessarily (bake the eggs) sunny side up.’   [Co: 101023\_01.txt]
-\z
-\z
-
-It should be mentioned that some preceding verbal stems in the compounds of V+N can retain their original argument structure (or “internal syntax” in \citealt{Haspelmath1996}: 52) as in (4-35 b-d).
-
-\ea  
-\ea Original argument structure \label{ex:4.35}\\
-% \textsc{tm}:
-\gllll  wanna  urɨba  kakjuttoo.\\
-    \textit{wan=ja}  \textit{u-rɨ=ba}  \textit{kak-jur=doo}\\
-    1\textsc{sg}=\textsc{top}  \textsc{mes}-\textsc{nlz}=\textsc{acc}  write-\textsc{umrk}=\textsc{ass}\\
-      Object  \\
-    \glt     ‘I will write it.’ [El: 130816]
-
-\ex \textit{bəə} ‘role’\\
-\gllll  \textsc{tm}:  wanna  urɨba  kakibəə  zjajaa.\\
-    \textit{wan=ja}  \textit{u-rɨ=ba}  \textit{kak-i+bəə}  \textit{zja=jaa}\\
-    1\textsc{sg}=\textsc{top}  \textsc{mes}-\textsc{nlz}=\textsc{acc}  write-\textsc{inf}+role  \textsc{cop}=\textsc{sol}\\
-     {} Object  \\
-    \glt     ‘I fill the role to write it.’ [lit. ‘I am the role to write it.’] [El: 130816]
-
-\ex \textit{madu} ‘time’\\
-\gllll  \textsc{tm}:  wanna  urɨnkjoo  kakimadoo  nəndoo.\\
-    \textit{wan=ja}  \textit{u-rɨ=nkja=ja}  \textit{kak-i+madu=ja}  \textit{nə-an=doo}\\
-    1\textsc{sg}=\textsc{top}  \textsc{mes}-\textsc{nlz}=\textsc{appr}=TOP  write-\textsc{inf}+time=TOP  exist-\textsc{neg}=\textsc{ass}\\
-      Object    \\
-    \glt     ‘I have no time to write it.’ [lit. ‘For me, there is no time to write it.’] [El: 130816]
-
-\ex \textit{mai} (\textsc{obl})\\
-\gllll  \textsc{tm}:  wanna  urɨba  kakimaidoo.\\
-    \textit{wan=ja}  \textit{u-rɨ=ba}  \textit{kak-i+mai=doo}\\
-    1\textsc{sg}=\textsc{top}  \textsc{mes}-\textsc{nlz}=\textsc{acc}  write-\textsc{inf}+\textsc{obl}=\textsc{ass}\\
-      Object  \\
-    \glt     ‘I have to write it.’ [El: 130816]
-    \z
-\z
-
-The example in (4-35 a) shows the original argument structure of \textit{kak-} ‘write,’ whose object \textit{u-rɨ} ‘that’ is marked by \textit{ba} (\textsc{acc}). The examples in (4-35 b-d) show that the compounded \textit{kak-} ‘write’ still retains its object, although I could not elicitate the speaker to say an example where the object of \textit{kak-i+madu} (write-\textsc{inf}+time) was marked by \textit{ba} (ACC). Furtheremore, \textit{zjaa} ‘place’ cannot retain its original argument structure, e.g., */kumoo mɨzɨba numzjaadoo/ \textit{ku-ma=ja} \textit{mɨzɨ=ba} \textit{num-∅+zjaa=doo} (\textsc{prox}-place=\textsc{top} water=ACC drink-INF+place=\textsc{ass}) [Intended meaning] ‘Here is the place to drink water.’
-
-Strictly speaking, the alleged nominal stems in the above examples, i.e. \textit{zjaa} ‘place,’ \textit{bəə} ‘role,’ \textit{mai} (\textsc{obl}), \textit{madəə} ‘fail to,’ and \textit{gjaa} (\textsc{purp}), cannot regarded as stems (or roots), since they cannot start an utterance by themselves (see \sectref{sec:4.2.3}). In fact, they are thought to be in the process of grammaticalization from roots to affixes (or nominalizers). However, I do not regard them as nominalizers in modern Yuwan, since their initial stems always become infinitives, which is the same as the ordinary type compounding (see \sectref{sec:4.2.3.1}). On the other hand, the genuine nominalizer in Yuwan, i.e. \textit{{}-jaa} ‘person,’ can directly attach to verbal roots, e.g., /hikjaa/ \textit{hik-jaa} (play-person) ‘player’ (see also \sectref{sec:7.6}). Therefore, I propose that the above forms are compounds (not nominalizer affixes). In order to distinguish these “nominal stems” from the ordinary nominal stems such as \textit{hinzjaa} ‘goat,’ it may be appropriate to call the former the “nominal stems only for compounding.”
-
-Finally, I will present examples of \textit{cja} ‘want,’ \textit{cjagɨ} ‘seem,’ \textit{jass} ‘easy,’ and \textit{gussj} ‘difficult.’ In principle, these adjectival stems always follow the verbal infinitives, and the resulting compound is always an adjectival stem. The example of \textit{cja} ‘want’ is shown below, and other examples are shown in \sectref{sec:4.3.8.2}.
-
-\ea  \textit{cja} ‘want’ \label{ex:4.36}\\\relax
-  [Context: \textsc{tm} is introducing the present author to the hearer US saying that the present author has been looking for a good language teacher in the community.]\\
-\glll  \textsc{tm}:  simakutuba   narəəcjasaccjɨ  jˀicjɨ,\\
-    \textit{sima+kutuba}  \textit{\Highlight{naraw-i+cja}-sa=ccjɨ  jˀ-tɨ}\\
-    community+language  learn-\textsc{inf}+want-\textsc{adj}=\textsc{qt}  say-\textsc{seq}\\
-    \glt     ‘(He) said, ‘(I) want to learn the language of the community,’ and ...’ [Co: 110328\_00.txt]
-\z
-
-Strictly speaking, the adjectival root \textit{cja-} ‘want’ in \REF{ex:4.36} cannot be analyzed as a stem (or a root) since it cannot start an utterance by itself (see \sectref{sec:4.2.3}). The same point can be made about \textit{cjagɨ-} ‘seem,’ \textit{jass-} ‘easy,’ and \textit{gussj-} ‘difficult.’ In fact, they are in the process of grammaticalization from roots to affixes as well as the “nominal stems only for compounding” discussed above. However, the phonotactic behavior of \textit{jass-} ‘easy’ discussed in (2-9) of \sectref{sec:2.3.2} slightly shows that it retains non-affixal property; in short, \textit{jass-} ‘easy’ does not induce palatalization of the preceding consonant on the contrary to the nominalizer \textit{{}-jaa} (\textsc{nlz}), which induce palatalization. The above adjectival stems can also retain the original argument structures of the verbal stems. For example, \textit{sima+kutuba} ‘the language of the community’ is the argument of \textit{naraw-} ‘learn’ in \REF{ex:4.36}. In order to distinguish these “adjectival stems” from the ordinary adjectival stems such as \textit{kjura-} ‘beautiful,’ it may be appropriate to call the former the “adjectival stems only for compounding.”
-
 \subsubsection{Reduplication}\label{sec:4.2.3.3}
 
-Reduplication in Yuwan concerns full reduplication, not partial reduplication. A reduplicated form consists of the base and the reduplicant. The reduplicant precedes the base, e.g. /sabii+sabi/ ‘smoothly,’ where /sabii/ is the reduplicant and /sabi/ is the base. Syntactically, reduplicated forms made of adjectival roots or onomatopoeic roots function as adverbs (see \sectref{sec:4.3.6} and \sectref{sec:4.3.8.3}). The reduplicated form made of the reflexive pronoun functions as a nominal (see \sectref{sec:7.3}). In some reduplicated forms, the base undergoes the sequential voicing (or “rendaku”), which is also founded in compounding (see 4.2.3.4 for more details). However, reduplication is different from compounding in other morphophonological characteristics. In paticular, reduplicated forms undergo vowel lengthening in some environments. Vowel lengthening occurs in reduplicants if neither the penultimate nor final syllable of the base is heavy as in (4-37 a-b) (see \sectref{sec:4.3.6} for more details). On the contrary, if the reduplicated form in the same condition is followed by a morpheme that is composed of only a syllable with a mora, e.g. \textit{{}-tu} (\textsc{advz}) or \textit{nu} (\textsc{gen}), the final vowel of the base (not the reduplicant) is lengthened as in (4-37 c-d) (see also \sectref{sec:4.3.8.3} and \sectref{sec:7.3}).
+Reduplication in Yuwan concerns full reduplication, not partial reduplication. A reduplicated form consists of the base and the reduplicant. The reduplicant precedes the base, e.g. /sabii+sabi/ ‘smoothly,’ where /sabii/ is the reduplicant and /sabi/ is the base. Syntactically, reduplicated forms made of adjectival roots or onomatopoeic roots function as adverbs (see \sectref{sec:4.3.6} and \sectref{sec:4.3.8.3}). The reduplicated form made of the reflexive pronoun functions as a nominal (see \sectref{sec:7.3}). In some reduplicated forms, the base undergoes the sequential voicing (or “rendaku”), which is also founded in compounding (see 4.2.3.4 for more details). However, reduplication is different from compounding in other morphophonological characteristics. In particular, reduplicated forms undergo vowel lengthening in some environments. Vowel lengthening occurs in reduplicants if neither the penultimate nor final syllable of the base is heavy as in (4-37 a-b) (see \sectref{sec:4.3.6} for more details). In contrast, if the reduplicated form in the same condition is followed by a morpheme that is composed of a single mora, e.g. \textit{{}-tu} (\textsc{advz}) or \textit{nu} (\textsc{gen}), the final vowel of the base (not the reduplicant) is lengthened as in (4-37 c-d) (see \sectref{sec:4.3.8.3} and \sectref{sec:7.3}).
 
 \ea  Reduplication \label{ex:4.37}
 \exi{A.} Reduplicant is lengthened
@@ -983,7 +749,7 @@ With regard to (b), a compound cannot be interrupted by a clause because it is a
 
 These examples show that the components of the NP in (4-46 b), i.e. /waa/ ‘my’ and /kasetto/ ‘cassette recorder,’ can be interrupted by the adnominal clause /injasan/ ‘(something) that is small.’ This example can be analyzed as follows. First, the modifier \textit{injasan} and the head \textit{kasetto} ‘cassette recorder’ consititute an NP, which recursively fills the head slot of a superordinate NP. This superordinate NP has the modifier \textit{waa} ‘my.’ By contrast, the components of the compound cannot be interrupted by the adnominal clause as in (4-46 a).
 
-The same argumentation can apply to the nominal juxtaposed in the modifier slot of an NP. Address nouns, e.g. \textit{anmaa} ‘mother,’ can fill the modifier slot of an NP only by themselves as in (4-47 a) (see also 6.1.1). The modifier \textit{anmaa} ‘mother’ and the head \textit{tɨɨ} ‘hand,’ which means ‘(my) mother’s hand,’ can be interrupted by the adnominal clause /hɨɨsan/ ‘(something) that is big’ as in (4-47 b), which means the combination \textit{anmaa} \textit{tɨɨ} ‘(my) mother’s hand’ is not a compound.
+The same argumentation can apply to the nominal juxtaposed in the modifier slot of an NP. Address nouns, e.g. \textit{anmaa} ‘mother,’ can fill the modifier slot of an NP only by themselves as in (4-47 a) (see 6.1.1). The modifier \textit{anmaa} ‘mother’ and the head \textit{tɨɨ} ‘hand,’ which means ‘(my) mother’s hand,’ can be interrupted by the adnominal clause /hɨɨsan/ ‘(something) that is big’ as in (4-47 b), which means the combination \textit{anmaa} \textit{tɨɨ} ‘(my) mother’s hand’ is not a compound.
 
 \ea  Modifier and head in a phrase \label{ex:4.47}
 \ea  %\textsc{tm}:
@@ -1023,7 +789,7 @@ Takes an adjectival inflectional affix      & \textminus &  \textminus &  \textm
 
 \subsection{Nominals}\label{sec:4.3.1}
 
-The nominal is a word that heads an NP, e.g., \textit{hinzjaa} ‘goat’ (see \chapref{chap:6} for more details about NPs). Nominals can be further divided into categories such as common nouns (e.g., \textit{hinzjaa} ‘goat’), address nouns (e.g., \textit{anmaa} ‘mother’), reflexives (e.g., \textit{nusi} ‘oneself’), numerals (e.g., \textit{tˀɨɨ} ‘one’), indefinites (e.g., \textit{taru-ka} ‘someone’) and formal nouns (e.g., \textit{sɨ} ‘thing; person; fact’). The first five subclasses are free forms (see \chapref{chap:7}), but the last one (i.e. formal nouns) is a clitic (see \sectref{sec:6.2.2} for more details). Personal pronouns such as \textit{wan} ‘I,’ demonstrative pronouns such as \textit{kurɨ} ‘this,’ and interrogative pronouns such as \textit{taru} ‘who’ are categorized as nominals. However, personal pronominals, demonstratives, and interrogatives are not always categorized into nominals since they can also become other word classes. I call them “cross-over categories,” which will be discussed in \chapref{chap:5}.
+The nominal is a word that heads an NP, e.g., \textit{hinzjaa} ‘goat’ (see \chapref{chap:6} for more details about NPs). Nominals can be further divided into categories such as common nouns (e.g., \textit{hinzjaa} ‘goat’), address nouns (e.g., \textit{anmaa} ‘mother’), reflexives (e.g., \textit{nusi} ‘oneself’), numerals (e.g., \textit{tˀɨɨ} ‘one’), indefinites (e.g., \textit{taru-nkuin} ‘anyone’) and formal nouns (e.g., \textit{sɨ} ‘thing; person; fact’). The first five subclasses are free forms (see \chapref{chap:7}), but the last one (i.e. formal nouns) is a clitic (see \sectref{sec:6.2.2} for more details). Personal pronouns such as \textit{wan} ‘I,’ demonstrative pronouns such as \textit{kurɨ} ‘this,’ and interrogative pronouns such as \textit{taru} ‘who’ are categorized as nominals. However, personal pronominals, demonstratives, and interrogatives are not always categorized into nominals since they can also become other word classes. I call them “cross-over categories,” which will be discussed in \chapref{chap:5}.
 
 A nominal may be derived from a verbal stem (see \sectref{sec:4.3.8.1}). A few nominals that have temporal meanings, e.g., \textit{kjuu} ‘today,’ \textit{acja} ‘tomorrow,’ and \textit{kinju} ‘yesterday,’ can be used adverbially (put another way, they can convert to adverbs with no formal change) as in \REF{ex:4.48}.
 
@@ -1042,7 +808,7 @@ Whereas nominals take genitive case in the modifier slot of an NP, adnominals do
 
 \subsection{Verbs}\label{sec:4.3.3}
 
-The verb is identified by the occurence of a specific set of inflectional affixes (see \sectref{sec:8.4}), e.g., \textit{kam-ɨ} (eat-\textsc{imp}) ‘Eat!’ The only exception is the copula verb \textit{zjar-}, which may lack an inflectional affix entirely (see \sectref{sec:8.3.3.2}). The verbal phrase is composed minimally of a verb, but it may also be composed of a lexical verb and an auxiliary verb (see \sectref{sec:9.1.1} for more details). Verbs involve complex morphophonological alternations (see \sectref{sec:8.2}). Verbal inflectional affixes can be grouped into four classes: finite-form affixes, participial affixes, converbal affixes, and an infinitival affix. These classes of affixes correspond to the following clause types: main clauses, adnominal clauses, adverbial clauses, and nominal clauses (see \sectref{sec:8.4} for more detai).
+The verb is identified by the occurence of a specific set of inflectional affixes (see \sectref{sec:8.4}), e.g., \textit{kam-ɨ} (eat-\textsc{imp}) ‘Eat!’ The only exception is the copula verb \textit{zjar-}, which may lack an inflectional affix entirely (see \sectref{sec:8.3.3.2}). The verbal phrase is composed minimally of a verb, but it may also be composed of a lexical verb and an auxiliary verb (see \sectref{sec:9.1.1} for more details). Verbs involve complex morphophonological alternations (see \sectref{sec:8.2}). Verbal inflectional affixes can be grouped into four classes: finite-form affixes, participial affixes, converbal affixes, and an infinitival affix. These classes of affixes correspond to the following clause types: main clauses, adnominal clauses, adverbial clauses, and nominal clauses (see \sectref{sec:8.4} for more details).
 
 \subsection{Adjectives}\label{sec:4.3.4}
 
@@ -1073,7 +839,7 @@ Morphologically, the adjective is composed of an adjectival stem plus the adject
 
 The above examples show that \textit{{}-sa} (\textsc{adj}) has two allomorphs /-sa/ as in (4-49 a) and /-a/ as in (4-49 b). The same thing can apply to \textit{{}-soo} (ADJ), which has two allomorphs /-soo/ and /-oo/.
 
-Syntactically, a single adjectival word can costitute the predicate as in (4-50 a-b). Additionally, an adjective can be followed by the stative verb \textit{ar-} (or \textit{nə-}) in some environments as in (4-50 c-d) (see \sectref{sec:9.2} for more details).
+Syntactically, a single adjectival word can constitute the predicate as in (4-50 a-b). Additionally, an adjective can be followed by the stative verb \textit{ar-} (or \textit{nə-}) in some environments as in (4-50 c-d) (see \sectref{sec:9.2} for more details).
 
 \ea  \label{ex:4.50}
 \ea  \label{ex:4.50a}%\textsc{tm}:
@@ -1102,7 +868,7 @@ Syntactically, a single adjectival word can costitute the predicate as in (4-50 
     \z
 \z
 
-The text data indicates that an adjective takes the inflection \textit{{}-sa} (\textsc{adj}) when it is not followed by the stative verb. However, it can take \textit{{}-soo} (ADJ) in elicitation. On the other hand, when it is followed by the stative verb, the adjective takes either \textit{{}-sa} (ADJ) or \textit{{}-soo} (ADJ) in the text data. Generally, \textit{{}-sa} (ADJ) is used when the predicate is in affirmative, and -\textit{soo} (ADJ) in negative. However, \textit{{}-soo} (ADJ) can be used in affirmative when the adjective fills the complement slot of \textsc{lvc} or the lexical verb slot of \textsc{av}C (see \sectref{sec:9.2.2.3} for more details). It is probable that \textit{{}-soo} (ADJ) is made of \textit{{}-sa} (ADJ) + \textit{ja} (\textsc{top}), considering the following two facts. First, there is a morphophonological rule of //a// + \textit{ja} (TOP) > /oo/ (see \sectref{sec:10.1.1.1}). Second, \textit{{}-soo} (ADJ) is used in negative of the adjectival predicate phrase as well as \textit{ja} (TOP) is used in negative in the nominal predicate phrase (see \sectref{sec:9.3.1}). However, I do not propose the underlying forms \textit{{}-sa=ja} (ADJ=TOP) for /-soo/, since there is no surface form realized as /-sa=ja/, and the form /-soo/ can finish a clause, which would not hold true if /-soo/ were composed of \textit{{}-sa} \textit{+} \textit{ja} (TOP).
+The text data indicates that an adjective takes the inflection \textit{{}-sa} (\textsc{adj}) when it is not followed by the stative verb. However, it can take \textit{{}-soo} (ADJ) in elicitation. On the other hand, when it is followed by the stative verb, the adjective takes either \textit{{}-sa} (ADJ) or \textit{{}-soo} (ADJ) in the text data. Generally, \textit{{}-sa} (ADJ) is used when the predicate is in affirmative, and -\textit{soo} (ADJ) in negative. However, \textit{{}-soo} (ADJ) can be used in affirmative when the adjective fills the complement slot of \textsc{lvc} or the lexical verb slot of \textsc{av}C (see \sectref{sec:9.2.2.3} for more details). It is probable that \textit{{}-soo} (ADJ) is made of \textit{{}-sa} (ADJ) + \textit{ja} (\textsc{top}), considering the following two facts. First, there is a morphophonological rule of //a// + \textit{ja} (TOP) > /oo/ (see \sectref{sec:10.1.1.1}). Second, \textit{{}-soo} (ADJ) is used in negative of the adjectival predicate phrase, which is similar to the topic marker \textit{ja} (TOP) used in negative of the nominal predicate phrase (see \sectref{sec:9.3.1}). However, I do not propose the underlying forms \textit{{}-sa=ja} (ADJ=TOP) for /-soo/, since there is no surface form realized as /-sa=ja/, and the form /-soo/ can finish a clause, which would not hold true if /-soo/ were composed of \textit{{}-sa} \textit{+} \textit{ja} (TOP).
 
 Adjectives may also be used adverbially (put in another way, they can convert to adverbs with no formal change).
 
@@ -1130,17 +896,17 @@ Adjectives may also be used adverbially (put in another way, they can convert to
     \z
 \z
 
-In (4-51 a), the predicate and its complement /isigaki natutattu/ ‘was stone fence’ are modified by \textit{taa-sa} (high-\textsc{adj}) ‘highly.’ In (4-51 b), the predicate /mjan/ ‘not see’ is modified by \textit{nagəə-sa} (long-ADJ) ‘for a long time.’ In (4-51 c), the predicate /jˀantatto/ ‘did not say’ is modified by /waru-soo/ (bad-ADJ) ‘badly.’
+In (4-51 a), the predicate and its complement /isigaki natutattu/ ‘was stone fence’ are modified by \textit{taa-sa} (high-\textsc{adj}) ‘highly.’ As I mentioned in \ref{sec:4.1.3.2}, adjectives cannot modify nominals by themselves; i.e. they should be compounded or take stative verbs. Thus, the adjective \textit{taa-sa} (high-\textsc{adj}) in (\ref{ex:4.51}a) is of adverbial use, not of adnominal use. In (4-51 b), the predicate /mjan/ ‘not see’ is modified by \textit{nagəə-sa} (long-ADJ) ‘for a long time.’ In (4-51 c), the predicate /jˀantatto/ ‘did not say’ is modified by /waru-soo/ (bad-ADJ) ‘badly.’
 
-There are very limited set of adjectives that take the adverbializer -\textit{sanma} or \textit{{}-ku}. And another limited set of adjectives undergo reduplication (sometimes with the affix \textit{{}-tu}), in order to make them adverbs (see \sectref{sec:4.3.6} and \sectref{sec:4.3.8.3}). Thus, we interpret them as derivational affixes and call them adverbializers.
+There are very limited set of adjectives that take the adverbializer -\textit{sanma} or \textit{{}-ku}. And another limited set of adjectives undergo reduplication (sometimes with the affix \textit{{}-tu}), in order to make them adverbs (see \sectref{sec:4.3.6} and \sectref{sec:4.3.8.3}).
 
 \subsection{Particles}\label{sec:4.3.5}
 
-All particles are clitics, but not vice versa (cf., formal nouns in \sectref{sec:6.2.2}). There are six subclasses of particles: case particles, limitter particles, conjunctive particles, clause-final particles, utterance-final particles A, and utterance-final particles B. See \chapref{chap:10} for more details.
+All particles are clitics, but not vice versa (cf., formal nouns in \sectref{sec:6.2.2}). There are six subclasses of particles: case particles, limiter particles, conjunctive particles, clause-final particles, utterance-final particles A, and utterance-final particles B. See \chapref{chap:10} for more details.
 
 \subsection{Adverbs}\label{sec:4.3.6}
 
-It is difficult to difine the formal categories with which adverbs establish the modificational relationships. They scope over entire propostion, predicate, or even a part of compound. Let us illustrate the adverbial modification with \textit{muru} ‘very,’ which is underlined below.
+It is difficult to define the formal categories with which adverbs establish the modificational relationships. They scope over entire propostion, predicate, or even a part of compound. Let us illustrate the adverbial modification with \textit{muru} ‘very,’ which is underlined below.
 
 \ea  \ea With verbal predicate \label{ex:4.52}\\\relax
   [Context: Speaking about an acquaintance of \textsc{tm} and US]\\
@@ -1253,7 +1019,7 @@ siju      &  L   & L  & > & \Highlight{sijuu}+ziju   & ‘whitely’\\
 \end{tabular}
 \end{table}
 
-There are two points to make about the data shown in the above table: (a) syllable construction and (b) kinds of roots. First, some of the reduplicated adverbs lengthen their initial roots, e.g., //sabi// ‘smoothly’ > /sabii/. This lengthening occurs if neither penultimate nor final syllable of the original root is heavy. Second, reduplicated adverbs are made up of either onomatopoeic roots such as //gara// ‘rattle,’ which seems to represent the sound of metallic objects hitting each other, or adjectival roots such as //kjura// ‘beautiful’ and //siju// ‘white’ (which also go through sequential voicing, as discussed in \sectref{sec:4.2.3.4}). Logically, it would be difficult to characterize whether the initial root undergoes lengthening or omitting (of a vowel) seeing only cases of onomatopoeic roots. Although, the adjectival roots provide additional clues because their original forms are clearly not lengthened when compared to the other morphological processes of adjectival roots, e.g., /kjura-sa/ (white-\textsc{adj}) ‘white.’ Therefore, we can assume that all the initial roots of reduplicated adverbs originally did not undergo lengthening. In other words, the original root of /sabii+sabi/ ‘smoothly’ is //sabi// (not //sabii//).
+There are two points to make about the data shown in the above table: (a) syllable construction and (b) kinds of roots. First, some of the reduplicated adverbs lengthen their initial roots, e.g., //sabi// ‘smoothly’ > /sabii/. This lengthening occurs if neither penultimate nor final syllable of the original root is heavy. Second, reduplicated adverbs are made up of either onomatopoeic roots such as //gara// ‘rattle,’ which seems to represent the sound of metallic objects hitting each other, or adjectival roots such as //kjura// ‘beautiful’ and //siju// ‘white’ (which also go through sequential voicing, as discussed in \sectref{sec:4.2.3.4}). Logically, it would be difficult to characterize whether the initial root undergoes lengthening or omitting (of a vowel) seeing only cases of onomatopoeic roots. Although, the adjectival roots provide additional clues because their original forms are clearly not lengthened when compared to the other morphological processes of adjectival roots, e.g., /kjura-sa/ (beautiful-\textsc{adj}) ‘beautiful.’ Therefore, we can assume that all the initial roots of reduplicated adverbs originally did not undergo lengthening. In other words, the original root of /sabii+sabi/ ‘smoothly’ is //sabi// (not //sabii//).
 
 Furthermore, adjectival stems, demonstrative stems and interrogative stems can become adverbs by affixation, e.g., \textit{ubu-ku} (heavy-\textsc{advz}) ‘heavily,’ \textit{ka-n} (\textsc{prox}-ADVZ) ‘here’ and \textit{ikja-sjɨ} (how-ADVZ) ‘how’ (see \sectref{sec:4.3.8.3} and chapter 5).
 
@@ -1276,7 +1042,7 @@ US: \glll     cjaa,  cjaa,  naa,  ikjaasjɨnkaasjɨn.jo.\\
     \z
 \z
 
-These examples show that the second vowels of the interrogative stems should be lengthened before \textit{{}-ninkuinin} or \textit{{}-sjɨnkaasjɨn}: \textit{ta-ru} (who-\textsc{nlz}) > /taruu/ and \textit{ikja-} ‘how’ > /ikjaa/. Perhaps, these affixes may be divided into several morphemes such as \textit{{}-ninkuinin} > \textit{=n=n} \textit{kui=n=n} (\textsc{dat}1=even \textsc{echo}=DAT1=even) and \textit{{}-sjɨnkaasjɨn} > \textit{{}-sjɨ=n kaa-sjɨ=n} (\textsc{advz}=even ECHO=ADVZ=even) (ECHO means an echo morpheme). I do not, however, take these analyses, because these morphemes are always closely united and no other morphemes intervene or replace them. Therefore, I interpret these alleged combinations as affixes, at least in modern Yuwan (see also \sectref{sec:7.5} for the indefinite pronoun).
+These examples show that the second vowels of the interrogative stems should be lengthened before \textit{{}-ninkuinin} or \textit{{}-sjɨnkaasjɨn}: \textit{ta-ru} (who-\textsc{nlz}) > /taruu/ and \textit{ikja-} ‘how’ > /ikjaa/. Perhaps, these affixes may be divided into several morphemes such as \textit{{}-ninkuinin} > \textit{=n=n} \textit{kui=n=n} (\textsc{dat}1=even \textsc{echo}=DAT1=even) and \textit{{}-sjɨnkaasjɨn} > \textit{{}-sjɨ=n kaa-sjɨ=n} (\textsc{advz}=even ECHO=ADVZ=even) (ECHO means an echo morpheme). I do not, however, take these analyses, because these morphemes are always closely united and no other morphemes intervene or replace them. Therefore, I interpret these alleged combinations as affixes, at least in modern Yuwan (see \sectref{sec:7.5} for the indefinite pronoun).
 
 \subsection{Interjections}\label{sec:4.3.7}
 
@@ -1310,13 +1076,13 @@ Form & Gloss & Context\\\midrule
 \textit{joo}   & \textsc{cfm}1            & Drawing hearer’s attention\\
 \textit{mattai} &  wait.\textsc{imp}.\textsc{pol} & Asking the hearer to wait\\
 \textit{naa}   & \textsc{fil}             & Filling the interval of utterance\\
-\textit{ude}\footnote{\textit{ude} ‘well’ is frequently pronounced as [uɾe].} & well & Trying to do something\\
+\textit{ude}\footnote{\textit{ude} ‘here you go’ is frequently pronounced as [uɾe].} & well & Trying to do something; meaning ‘here you go’\\
 \textit{un}\footnote{\textit{un} (\textsc{bch}) is frequently pronounced as [ʔmː].}    & BCH   &Backchannel\\
 \lspbottomrule
 \end{tabular}
 \end{table}
 
-  Almost all of the morphemes regarded as interjections by the criteria discussed in \sectref{sec:4.3} are used in the following conditions: they are used only by themselves, or they are embedded into a clause in the direct speech, which is always followed by the quotative marker \textit{ccjɨ} (see also \sectref{sec:10.4.1.1}).
+  Almost all of the morphemes regarded as interjections by the criteria discussed in \sectref{sec:4.3} are used in the following conditions: they are used only by themselves, or they are embedded into a clause in the direct speech, which is always followed by the quotative marker \textit{ccjɨ} (see \sectref{sec:10.4.1.1}).
 
 \ea\relax [Context: Distributing some of her lunch to the present author’s plate; \textsc{tm}: ‘Old peoples...’; \textsc{ms}: ‘Yeah.’] \label{ex:4.57}\\
 %  \textsc{tm}:
@@ -1346,52 +1112,52 @@ In this example, \textit{baa} fills the predicate slot followed by \textit{doo} 
 
 \subsection{Class-changing derivation}\label{sec:4.3.8}
 
-We attach the same label to a free form and a stem only if the stem can become the word class by itself or with a minimal inflection \citep[cf.][8]{Lehmann2008}. For example, the stem \textit{isi} ‘stone’ can be a nominal word by itself, and so we label \textit{isi} ‘stone’ as a “nominal stem.” The stem \textit{kam-} ‘eat’ can be a verbal word with a minimal inflection \textit{{}-ɨ} (\textsc{imp}) as in \textit{kam-ɨ} ‘Eat!,’ and so we regard \textit{kam-} ‘eat’ as a “verbal stem.”
+We attach the same label to a free form and a stem only if the stem can become the word class by itself or with minimal inflection \citep[cf.][553-554]{Lehmann2008}. For example, the stem \textit{isi} ‘stone’ can be a nominal word by itself, and so we label \textit{isi} ‘stone’ as a “nominal stem.” The stem \textit{kam-} ‘eat’ can be a verbal word with minimal inflection \textit{{}-ɨ} (\textsc{imp}) as in \textit{kam-ɨ} ‘Eat!,’ and so we regard \textit{kam-} ‘eat’ as a “verbal stem.”
 
 In the following sections, we examine a few cases where a particular stem class becomes another stem class. For example, a verbal stem becomes a nominal stem (see \sectref{sec:4.3.8.1}), a verbal stem becomes an adjectival stem (see \sectref{sec:4.3.8.2}), and an adjectival stem becomes an adverbial stem (see \sectref{sec:4.3.8.3}).
 
 \subsubsection{Verbal stem to nominal stem}\label{sec:4.3.8.1}
 
-There are several morphemes that can change verbal stems to nominal stems: \textit{{}-jaa} ‘person,’ \textit{zjaa} ‘place,’ \textit{bəə} ‘role,’ \textit{mai} (\textsc{obl}), \textit{madəə} ‘fail to,’ and \textit{gjaa} (\textsc{purp}). The first one may be called nominalizer (see \sectref{sec:7.6}). The others are a kind of nominal roots that are compounded with verbal infinitives (see \sectref{sec:4.2.3.2} for more details). The affix-like clitic \textit{sɨ} (\textsc{fn}) can also form a nominal stem from a verbal stem (see \sectref{sec:6.2.2.1}).
+There are several nominalizers that can change verbal stems to nominal stems: \textit{-jaa} ‘person,’ \textit{-zjaa} ‘place,’ \textit{-bəə} ‘role,’ \textit{-mai} (\textsc{obl}), \textit{-madəə} ‘fail to,’ and \textit{-gjaa} (\textsc{purp}). The first one, i.e. \textit{-jaa}, is a nominalizer that can be directly attached to any verbal root, e.g. /tujaa/ \textit{tur-jaa} (take-person) ‘taker’ (see \sectref{sec:7.6}). The others are nominalizers that are always attached to verbal infinitives, e.g. /tuimai/ \textit{tur-i-mai} (take-\textsc{inf-obl}) ‘should take’ (see \sectref{sec:8.4.4.3} for more details). The affix-like clitic \textit{sɨ} (\textsc{fn}) can also form a nominal stem from a verbal stem (see \sectref{sec:6.2.2.1}).
 
 \subsubsection{Verbal stem to adjectival stem}\label{sec:4.3.8.2}
 
-There are four adjectival roots that can change verbal stems to adjectival stems: \textit{cja} ‘want,’ \textit{cjagɨ} ‘seem,’ \textit{jass} ‘easy,’ and \textit{gussj} ‘difficult.’ In principle, they are compouned with verbal infinitives.
+There are four adjectivalizers that can change verbal stems to adjectival stems: \textit{-cja} ‘want,’ \textit{-cjagɨ} ‘seem,’ \textit{-jass} ‘easy,’ and \textit{-gussj} ‘difficult.’ In principle, they are attached to verbal infinitives.
 
-\ea \label{ex:4.59} \ea  \textit{cja} ‘want’ [= \REF{ex:4.36}] \label{ex:4.59a}\\\relax
-    [Context: \textsc{tm} is introducing the present author to the hearer U saying that the present author has been looking for a good language teacher in the community.]\\
+\ea \label{ex:4.59} \ea  \textit{-cja} ‘want’ [= \REF{ex:4.36}] \label{ex:4.59a}\\\relax
+    [Context: TM is introducing the present author to the hearer U, saying that the present author has been looking for a good language teacher in the community.]\\
 %  \textsc{tm}:
   \glll    simakutuba   narəəcjasaccjɨ  jˀicjɨ,\\
-      \textit{sima+kutuba}  \textit{\Highlight{naraw-i+cja-sa}=ccjɨ}  \textit{jˀ-tɨ}\\
-      community+language  learn-\textsc{inf}+want-\textsc{adj}=\textsc{qt}  say-\textsc{seq}\\
+      \textit{sima+kutuba}  \textit{\Highlight{naraw-i-cja-sa}=ccjɨ}  \textit{jˀ-tɨ}\\
+      community+language  learn-\textsc{inf}-want-\textsc{adj}=\textsc{qt}  say-\textsc{seq}\\
       \glt       ‘(He) said, ‘(I) want to learn the language of the community,’ and ...’ [Co: 110328\_00.txt]
 
-\ex  \textit{cjagɨ} ‘seem’\\\relax
+\ex  \textit{-cjagɨ} ‘seem’\\\relax
     [Context: Speaking of a person who used to copy the music tapes for everyone]\\
 %     \textsc{tm}:
      \glll arɨ  siicjagɨsan  cˀjunkjaga    cˀjuin  umooran  natattujaa.\\
-      \textit{a-rɨ}  \textit{\Highlight{sɨr-i+cjagɨ-sa}+ar-n}  \textit{cˀju=nkja=ga}   \textit{cˀjui=n}  \textit{umoor-an}  \textit{nar-tar-tu=jaa}\\                                                                          
-      \textsc{dist}-\textsc{nlz}  do-\textsc{inf}+seem-\textsc{adj}+\textsc{st}V-\textsc{adn}  person=\textsc{appr}=\textsc{foc}                   one.\textsc{num}.person=also  exist.\textsc{hon}-\textsc{neg}  become-\textsc{pst}-\textsc{csl}=\textsc{sol}\\
+      \textit{a-rɨ}  \textit{\Highlight{sɨr-i-cjagɨ-sa}+ar-n}  \textit{cˀju=nkja=ga}   \textit{cˀjui=n}  \textit{umoor-an}  \textit{nar-tar-tu=jaa}\\                                                                          
+      \textsc{dist}-\textsc{nlz}  do-\textsc{inf}-seem-\textsc{adj}+\textsc{st}V-\textsc{adn}  person=\textsc{appr}=\textsc{foc}                   one.\textsc{num}.person=also  exist.\textsc{hon}-\textsc{neg}  become-\textsc{pst}-\textsc{csl}=\textsc{sol}\\
      \glt  ‘(Now) there are no people who are likely to do that (i.e. recording), you know.’   [Co: 120415\_01.txt]
 
-\ex \textit{{}-jass} ‘easy’\\\relax
+\ex \textit{-jass} ‘easy’\\\relax
     [Context: Speaking of pickles that are easy to make]\\
 %  \textsc{tm}:
     \glll     urɨga  {\textbar}iciban{\textbar}  siijassa  appa.\\
-      \textit{u-rɨ=ga}  \textit{iciban}  \textit{\Highlight{sɨr-i+jass-sa}}  \textit{ar-ba}\\
-      \textsc{mes}-\textsc{nlz}=\textsc{foc}  mostly  do-\textsc{inf}+easy-\textsc{adj}  \textsc{st}V-\textsc{csl}\\
+      \textit{u-rɨ=ga}  \textit{iciban}  \textit{\Highlight{sɨr-i-jass-sa}}  \textit{ar-ba}\\
+      \textsc{mes}-\textsc{nlz}=\textsc{foc}  mostly  do-\textsc{inf}-easy-\textsc{adj}  \textsc{st}V-\textsc{csl}\\
       \glt       ‘Since it (i.e. the pickles) is mostly easy to do.’ [Co: 101023\_01.txt]
 
-\ex \textit{{}-gussj} ‘difficult’\\
+\ex \textit{-gussj} ‘difficult’\\
 % \textsc{tm}:
 \glll      mɨsikjarusanu  miigussja.\\
-      \textit{mɨsikjaru-sa=nu}  \textit{\Highlight{mj-i+gussj-sa}}\\
-      dazzling-\textsc{adj}\textsc{seq}  see-\textsc{inf}+difficult-ADJ\\
+      \textit{mɨsikjaru-sa=nu}  \textit{\Highlight{mj-i-gussj-sa}}\\
+      dazzling-\textsc{adj}\textsc{seq}  see-\textsc{inf}-difficult-ADJ\\
       \glt       ‘(It) is dazzling and (it) is difficult (for me) to see.’ [El: 120921]
      \z
 \z
 
-All of the above examples are followed by \textit{{}-sa} (\textsc{adj}) and become adjectives to fill the predicate slots. The above adjectival stems almost always follow the verbal infinitives. However, there is an example, where \textit{cjagɨ} ‘seem’ is compounded with the adjectival stem \textit{mˀa} ‘tasty’ as in \textit{mˀa+cjagɨ-sa} (tasty+seem-ADJ) ‘(It) seems tasty.’
+All of the above examples take the adjectival inflection \textit{{}-sa} (\textsc{adj}) to fill the predicate slots. The above adjectivalizers almost always follow the verbal infinitives. However, there is an example, where \textit{-cjagɨ} ‘seem’ follows an adjectival stem \textit{mˀa-} ‘tasty’ as in \textit{mˀa-cjagɨ-sa} (tasty-seem-ADJ) ‘(It) seems tasty.’
 
 \subsubsection{Adjectival stem to adverbial stem}\label{sec:4.3.8.3}
 
@@ -1431,7 +1197,7 @@ Second, there are two affixes that can change adjectival stems to adverbial stem
 
 The above example shows that \textit{{}-sanma} (\textsc{advz}) requires that the preceding stem is lengthened, i.e. //kjura// > /kjuraa/, if the adjectival stem has a light syllable in the final position. Otherwise, lengthening does not occur: \textit{hɨɨ-} ‘large’ + \textit{{}-sanma} (ADVZ) > /hɨɨsanma/ ‘largely.’
 
-  Finally, reduplication with affixation changes adjectival stems to adverbial stems. Morphophonologically, the following stem is lengthened with the adverbializer \textit{{}-tu}. Additionally, the following stem goes through sequential voicing (\sectref{sec:4.2.3.4}). Syntactically, these dirived adverbs can fill the complement slot of the light verb construction (see \sectref{sec:9.1.2} for more details).
+  Finally, reduplication with affixation changes adjectival stems to adverbial stems. Morphophonologically, the following stem is lengthened with the adverbializer \textit{{}-tu}. Additionally, the following stem goes through sequential voicing (\sectref{sec:4.2.3.4}). Syntactically, these derived adverbs can fill the complement slot of the light verb construction (see \sectref{sec:9.1.2} for more details).
 
 \ea  \textit{{}-tu} \label{ex:4.62}
 % \textsc{tm}:
